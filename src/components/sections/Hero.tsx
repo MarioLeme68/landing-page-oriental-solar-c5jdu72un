@@ -1,5 +1,6 @@
-import { ArrowRight, ShieldCheck, Zap, Sun, TrendingDown } from 'lucide-react'
+import { ArrowRight, ShieldCheck, Zap, Sun, TrendingDown, MessageCircle } from 'lucide-react'
 import { Button } from '@/components/ui/button'
+import { getWhatsAppLink } from '@/lib/constants'
 
 export function Hero() {
   return (
@@ -41,6 +42,17 @@ export function Hero() {
                 <a href="#simulador">
                   Fazer simulação gratuita
                   <ArrowRight className="ml-2 h-5 w-5" />
+                </a>
+              </Button>
+              <Button
+                size="lg"
+                asChild
+                variant="outline"
+                className="text-base h-14 px-8 rounded-full shadow-sm hover:shadow-md transition-all hover:-translate-y-1 bg-white text-slate-700 border-slate-200 hover:bg-slate-50 hover:text-slate-900"
+              >
+                <a href={getWhatsAppLink()} target="_blank" rel="noopener noreferrer">
+                  <MessageCircle className="mr-2 h-5 w-5 text-[#25D366]" />
+                  Falar no WhatsApp
                 </a>
               </Button>
             </div>

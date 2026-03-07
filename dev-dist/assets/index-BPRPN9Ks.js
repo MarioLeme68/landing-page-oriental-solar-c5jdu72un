@@ -23986,6 +23986,9 @@ var Button = import_react.forwardRef(({ className, variant, size: size$3, asChil
 	});
 });
 Button.displayName = "Button";
+const WHATSAPP_NUMBER = "5521971664200";
+const DEFAULT_WHATSAPP_MESSAGE = "Olá, vi o site da Oriental Solar e gostaria de saber mais sobre como ter conforto e economia com energia solar.";
+const getWhatsAppLink = (text = DEFAULT_WHATSAPP_MESSAGE) => `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`;
 function Hero() {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", {
 		id: "inicio",
@@ -24019,9 +24022,9 @@ function Hero() {
 							className: "text-lg md:text-xl text-slate-600 mb-8 leading-relaxed text-balance",
 							children: "Ligue o ar condicionado sem medo da conta no fim do mês. A Oriental Solar entrega uma solução individualizada para você reduzir muito a sua conta de luz, economizando mês a mês, e valorizar seu imóvel com total segurança."
 						}),
-						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 							className: "flex flex-col sm:flex-row gap-4 mb-10",
-							children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
 								size: "lg",
 								asChild: true,
 								className: "text-base h-14 px-8 rounded-full shadow-lg hover:shadow-xl transition-all hover:-translate-y-1 bg-primary text-primary-foreground",
@@ -24029,7 +24032,18 @@ function Hero() {
 									href: "#simulador",
 									children: ["Fazer simulação gratuita", /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ArrowRight, { className: "ml-2 h-5 w-5" })]
 								})
-							})
+							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
+								size: "lg",
+								asChild: true,
+								variant: "outline",
+								className: "text-base h-14 px-8 rounded-full shadow-sm hover:shadow-md transition-all hover:-translate-y-1 bg-white text-slate-700 border-slate-200 hover:bg-slate-50 hover:text-slate-900",
+								children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
+									href: getWhatsAppLink(),
+									target: "_blank",
+									rel: "noopener noreferrer",
+									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(MessageCircle, { className: "mr-2 h-5 w-5 text-[#25D366]" }), "Falar no WhatsApp"]
+								})
+							})]
 						}),
 						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 							className: "flex flex-wrap items-center gap-4 sm:gap-6 text-sm font-medium text-slate-600",
@@ -24285,9 +24299,6 @@ var Label = import_react.forwardRef(({ className, ...props }, ref) => /* @__PURE
 	...props
 }));
 Label.displayName = Root$1.displayName;
-const WHATSAPP_NUMBER = "5521971664200";
-const DEFAULT_WHATSAPP_MESSAGE = "Olá, vi o site da Oriental Solar e gostaria de saber mais sobre como ter conforto e economia com energia solar.";
-const getWhatsAppLink = (text = DEFAULT_WHATSAPP_MESSAGE) => `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`;
 function Simulator() {
 	const [billValue, setBillValue] = (0, import_react.useState)("");
 	const [result, setResult] = (0, import_react.useState)(null);
@@ -25315,4 +25326,4 @@ var App = () => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(BrowserRouter, {
 var App_default = App;
 (0, import_client.createRoot)(document.getElementById("root")).render(/* @__PURE__ */ (0, import_jsx_runtime.jsx)(App_default, {}));
 
-//# sourceMappingURL=index-Cc29jnCn.js.map
+//# sourceMappingURL=index-BPRPN9Ks.js.map
