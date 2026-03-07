@@ -11,8 +11,8 @@ export function Footer() {
               <div className="bg-primary p-2 rounded-xl">
                 <Sun className="h-6 w-6 text-primary-foreground" />
               </div>
-              <span className="text-2xl font-bold tracking-tight text-white">
-                Oriental <span className="text-primary font-black">Solar</span>
+              <span className="text-2xl font-extrabold tracking-tight text-violet-400">
+                Oriental Solar
               </span>
             </div>
             <p className="text-slate-400 max-w-sm leading-relaxed text-lg">

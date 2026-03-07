@@ -6,7 +6,7 @@ const benefits = [
     icon: <Award className="h-8 w-8 text-primary" />,
     title: 'Equipamentos Premium',
     description:
-      'Trabalhamos apenas com as melhores marcas do mercado global, garantindo alta eficiência de geração e durabilidade superior a 25 anos.',
+      'Trabalhamos com um fornecedor nacionalmente reconhecido, e usamos as melhores marcas do mercado global, garantindo alta eficiência de geração e durabilidade superior a 25 anos.',
   },
   {
     icon: <Shield className="h-8 w-8 text-primary" />,
@@ -18,7 +18,7 @@ const benefits = [
     icon: <HeartHandshake className="h-8 w-8 text-primary" />,
     title: 'Suporte Humanizado',
     description:
-      'Não apenas instalamos. Monitoramos sua geração de energia e oferecemos suporte rápido sempre que você precisar, sem burocracia.',
+      'Estaremos sempre com você. Acompanhamos o início de seu processo e oferecemos suporte pessoal sempre que você precisar, sem burocracia.',
   },
 ]
 
@@ -27,13 +27,14 @@ export function Benefits() {
     <section id="vantagens" className="py-24 bg-white relative">
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900 mb-6">
+          <h2 className="text-3xl md:text-4xl font-extrabold text-blue-950 mb-6">
             A qualidade que sua família merece
           </h2>
           <p className="text-lg text-slate-600 leading-relaxed">
-            Diferente do mercado padrão que foca apenas em preço, nós entregamos uma{' '}
-            <strong className="text-slate-900 font-semibold">experiência premium</strong>. Energia
-            solar é um investimento de longo prazo para a valorização do seu patrimônio.
+            Diferentemente do mercado padrão, que foca mais em preço do que na qualidade do
+            resultado, nossa entrega visa a criar uma experiência boa para sua vida. Energia solar é
+            um investimento de longo prazo, em que você valoriza do seu patrimônio e obtém conforto
+            e tranquilidade.
           </p>
         </div>
 
@@ -47,7 +48,7 @@ export function Benefits() {
                 <div className="mb-6 p-4 bg-white rounded-2xl shadow-sm inline-block group-hover:bg-primary/10 transition-colors border border-slate-100">
                   {benefit.icon}
                 </div>
-                <h3 className="text-xl font-bold text-slate-900 mb-3">{benefit.title}</h3>
+                <h3 className="text-xl font-bold text-blue-950 mb-3">{benefit.title}</h3>
                 <p className="text-slate-600 leading-relaxed">{benefit.description}</p>
               </CardContent>
             </Card>
@@ -62,7 +63,7 @@ export function Benefits() {
                 <Home className="h-4 w-4" />
                 <span>Conforto em Primeiro Lugar</span>
               </div>
-              <h3 className="text-3xl md:text-4xl font-bold mb-6 leading-tight">
+              <h3 className="text-3xl md:text-4xl font-bold mb-6 leading-tight text-white">
                 Ligue o ar condicionado sem medo da conta de luz.
               </h3>
               <p className="text-slate-300 mb-8 text-lg leading-relaxed">
@@ -86,8 +87,8 @@ export function Benefits() {
             </div>
             <div className="h-full min-h-[400px] relative hidden lg:block">
               <img
-                src="https://img.usecurling.com/p/800/800?q=family%20living%20room%20air%20conditioner"
-                alt="Família confortável na sala com ar condicionado"
+                src="https://img.usecurling.com/p/800/800?q=couple%20sitting%20sofa%20air%20conditioner&dpr=2"
+                alt="Casal confortável na sala com ar condicionado"
                 className="absolute inset-0 w-full h-full object-cover rounded-l-[2.5rem] border-l border-slate-800"
               />
             </div>

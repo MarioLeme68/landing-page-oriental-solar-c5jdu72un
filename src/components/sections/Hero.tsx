@@ -21,15 +21,15 @@ export function Hero() {
               <span>Conforto + Economia = Qualidade de Vida</span>
             </div>
 
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-slate-900 leading-[1.1] mb-6 tracking-tight">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-blue-950 leading-[1.1] mb-6 tracking-tight">
               Transforme a luz do sol em <span className="text-primary">conforto real</span> para
               sua família.
             </h1>
 
             <p className="text-lg md:text-xl text-slate-600 mb-8 leading-relaxed">
-              Ligue o ar condicionado sem medo da conta no fim do mês. A Oriental Solar entrega
-              sistemas fotovoltaicos premium para você zerar sua conta de luz e valorizar seu imóvel
-              com total segurança.
+              Ligue o ar condicionado sem medo da conta no fim do mês. A Oriental Solar entrega uma
+              solução individualizada para você reduzir muito a sua conta de luz, economizando mês a
+              mês, e valorizar seu imóvel com total segurança.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-10">
@@ -57,11 +57,11 @@ export function Hero() {
             </div>
           </div>
 
-          <div className="relative opacity-0 animate-fade-in-up delay-200 lg:ml-auto">
-            <div className="relative rounded-[2rem] overflow-hidden shadow-2xl aspect-[4/3] max-w-lg mx-auto border-4 border-white">
+          <div className="relative opacity-0 animate-fade-in-up delay-200 lg:ml-auto flex flex-col items-center lg:items-end">
+            <div className="relative rounded-[2rem] overflow-hidden shadow-2xl aspect-[4/3] w-full max-w-lg border-4 border-white">
               <img
-                src="https://img.usecurling.com/p/800/600?q=modern%20house%20solar%20panels&dpr=2"
-                alt="Casa moderna com painéis solares no telhado"
+                src="https://img.usecurling.com/p/800/600?q=brazilian%20house%20clay%20roof%20sunny%20day&dpr=2"
+                alt="Casa estilo brasileira com telhado de cerâmica e energia solar"
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-slate-900/90 via-slate-900/30 to-transparent flex flex-col justify-end p-8">
@@ -72,8 +72,8 @@ export function Hero() {
               </div>
             </div>
 
-            {/* Floating badge */}
-            <div className="absolute -bottom-6 -left-6 bg-white p-5 rounded-2xl shadow-xl animate-float border border-slate-100 hidden md:flex items-center gap-4">
+            {/* Floating badge repositioned to avoid overlap */}
+            <div className="mt-6 bg-white p-5 rounded-2xl shadow-xl border border-slate-100 flex items-center gap-4 w-full max-w-sm">
               <div className="bg-green-100 p-3 rounded-xl">
                 <TrendingDown className="w-6 h-6 text-green-600" />
               </div>

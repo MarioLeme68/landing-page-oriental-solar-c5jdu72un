@@ -33,8 +33,8 @@ export function Header() {
           <div className="bg-primary p-2 rounded-xl group-hover:bg-primary/90 transition-colors shadow-sm">
             <Sun className="h-6 w-6 text-primary-foreground" />
           </div>
-          <span className="text-2xl font-bold tracking-tight text-slate-900">
-            Oriental <span className="text-primary font-black">Solar</span>
+          <span className="text-2xl font-extrabold tracking-tight text-violet-700">
+            Oriental Solar
           </span>
         </a>
 

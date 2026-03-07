@@ -69,7 +69,7 @@ export function Simulator() {
           <div className="inline-flex items-center justify-center p-4 bg-white rounded-2xl shadow-sm border border-slate-100 mb-6">
             <Calculator className="h-10 w-10 text-primary" />
           </div>
-          <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900 mb-6">
+          <h2 className="text-3xl md:text-4xl font-extrabold text-blue-950 mb-6">
             Simulador de Energia Solar
           </h2>
           <p className="text-lg text-slate-600">
@@ -83,7 +83,7 @@ export function Simulator() {
             <CardContent className="p-8 md:p-10 h-full flex flex-col justify-center">
               <form onSubmit={handleCalculate} className="space-y-8">
                 <div className="space-y-4">
-                  <Label htmlFor="bill" className="text-xl font-bold text-slate-900 block">
+                  <Label htmlFor="bill" className="text-xl font-bold text-blue-950 block">
                     Valor médio da conta de luz
                   </Label>
                   <p className="text-slate-500 text-sm mb-4">

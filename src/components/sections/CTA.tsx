@@ -23,8 +23,8 @@ export function CTA() {
             Pronto para ter mais conforto pagando menos?
           </h2>
           <p className="text-xl text-slate-300 mb-10 leading-relaxed">
-            Fale com um de nossos especialistas agora mesmo. Faremos uma análise gratuita da sua
-            viabilidade técnica e apresentaremos o projeto ideal para sua casa.
+            Fale conosco agora mesmo. Faremos uma análise gratuita da sua viabilidade técnica e
+            apresentaremos o projeto ideal para sua casa.
           </p>
 
           <div className="flex flex-col items-center gap-6">
@@ -35,7 +35,7 @@ export function CTA() {
             >
               <a href={getWhatsAppLink()} target="_blank" rel="noopener noreferrer">
                 <MessageCircle className="mr-2 h-6 w-6 group-hover:animate-bounce" />
-                Falar com Especialista no WhatsApp
+                Falar com a gente no WhatsApp
               </a>
             </Button>
 
