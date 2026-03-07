@@ -1,88 +1,92 @@
-import { Sun, Mail, Phone, MapPin } from 'lucide-react'
+import { Sun, Mail, Phone, MapPin, ArrowUpRight } from 'lucide-react'
 import { getWhatsAppLink } from '@/lib/constants'
 
 export function Footer() {
   return (
-    <footer className="bg-secondary text-secondary-foreground pt-16 pb-8">
+    <footer className="bg-slate-950 text-slate-400 pt-20 pb-10 border-t border-slate-900">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
-          <div className="space-y-4">
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-12 mb-16">
+          <div className="md:col-span-5 space-y-6">
             <div className="flex items-center gap-2">
-              <div className="bg-primary p-2 rounded-lg">
+              <div className="bg-primary p-2 rounded-xl">
                 <Sun className="h-6 w-6 text-primary-foreground" />
               </div>
               <span className="text-2xl font-bold tracking-tight text-white">
                 Oriental <span className="text-primary font-black">Solar</span>
               </span>
             </div>
-            <p className="text-secondary-foreground/80 max-w-sm">
+            <p className="text-slate-400 max-w-sm leading-relaxed text-lg">
               Transformando a luz do sol em qualidade de vida, conforto e economia real para sua
-              casa ou empresa.
+              família ou empresa.
             </p>
           </div>
 
-          <div>
-            <h4 className="text-lg font-semibold mb-6 text-white">Contato</h4>
+          <div className="md:col-span-4">
+            <h4 className="text-lg font-bold mb-6 text-white">Fale Conosco</h4>
             <ul className="space-y-4">
-              <li className="flex items-center gap-3 text-secondary-foreground/80">
-                <Phone className="h-5 w-5 text-primary" />
+              <li>
                 <a
                   href={getWhatsAppLink()}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-primary transition-colors"
+                  className="flex items-center gap-3 hover:text-primary transition-colors group"
                 >
-                  (21) 97166-4200
+                  <div className="bg-slate-900 p-2 rounded-lg group-hover:bg-primary/10">
+                    <Phone className="h-5 w-5 text-primary" />
+                  </div>
+                  <span className="font-medium text-slate-300">(21) 97166-4200</span>
+                  <ArrowUpRight className="h-4 w-4 opacity-0 group-hover:opacity-100 -translate-x-2 group-hover:translate-x-0 transition-all text-primary" />
                 </a>
               </li>
-              <li className="flex items-center gap-3 text-secondary-foreground/80">
-                <Mail className="h-5 w-5 text-primary" />
+              <li className="flex items-center gap-3">
+                <div className="bg-slate-900 p-2 rounded-lg">
+                  <Mail className="h-5 w-5 text-primary" />
+                </div>
                 <span>contato@orientalsolar.com.br</span>
               </li>
-              <li className="flex items-center gap-3 text-secondary-foreground/80">
-                <MapPin className="h-5 w-5 text-primary" />
-                <span>Atendimento em todo o Rio de Janeiro</span>
+              <li className="flex items-center gap-3">
+                <div className="bg-slate-900 p-2 rounded-lg">
+                  <MapPin className="h-5 w-5 text-primary" />
+                </div>
+                <span>Atendimento em todo o RJ</span>
               </li>
             </ul>
           </div>
 
-          <div>
-            <h4 className="text-lg font-semibold mb-6 text-white">Links Rápidos</h4>
+          <div className="md:col-span-3">
+            <h4 className="text-lg font-bold mb-6 text-white">Navegação</h4>
             <ul className="space-y-3">
               <li>
-                <a
-                  href="#inicio"
-                  className="text-secondary-foreground/80 hover:text-primary transition-colors"
-                >
+                <a href="#inicio" className="hover:text-primary transition-colors inline-block">
                   Início
                 </a>
               </li>
               <li>
-                <a
-                  href="#vantagens"
-                  className="text-secondary-foreground/80 hover:text-primary transition-colors"
-                >
-                  Nossos Diferenciais
+                <a href="#vantagens" className="hover:text-primary transition-colors inline-block">
+                  Vantagens e Conforto
                 </a>
               </li>
               <li>
-                <a
-                  href="#simulador"
-                  className="text-secondary-foreground/80 hover:text-primary transition-colors"
-                >
+                <a href="#simulador" className="hover:text-primary transition-colors inline-block">
                   Simulador de Economia
+                </a>
+              </li>
+              <li>
+                <a href="#faq" className="hover:text-primary transition-colors inline-block">
+                  Dúvidas Frequentes
                 </a>
               </li>
             </ul>
           </div>
         </div>
 
-        <div className="border-t border-secondary-foreground/10 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-sm text-secondary-foreground/60">
+        <div className="border-t border-slate-800 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
+          <p className="text-sm">
             &copy; {new Date().getFullYear()} Oriental Solar. Todos os direitos reservados.
           </p>
-          <p className="text-sm text-secondary-foreground/60">
-            Desenvolvido para gerar resultados sustentáveis.
+          <p className="text-sm flex items-center gap-2">
+            Desenvolvido para gerar resultados
+            <Sun className="h-4 w-4 text-primary" />
           </p>
         </div>
       </div>

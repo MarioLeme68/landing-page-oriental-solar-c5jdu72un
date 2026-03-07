@@ -18920,6 +18920,13 @@ var ArrowRight = createLucideIcon("arrow-right", [["path", {
 	d: "m12 5 7 7-7 7",
 	key: "xquz4c"
 }]]);
+var ArrowUpRight = createLucideIcon("arrow-up-right", [["path", {
+	d: "M7 7h10v10",
+	key: "1tivn9"
+}], ["path", {
+	d: "M7 17 17 7",
+	key: "1vkiza"
+}]]);
 var Award = createLucideIcon("award", [["path", {
 	d: "m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526",
 	key: "1yiouv"
@@ -18993,6 +19000,13 @@ var HeartHandshake = createLucideIcon("heart-handshake", [["path", {
 	d: "M19.414 14.414C21 12.828 22 11.5 22 9.5a5.5 5.5 0 0 0-9.591-3.676.6.6 0 0 1-.818.001A5.5 5.5 0 0 0 2 9.5c0 2.3 1.5 4 3 5.5l5.535 5.362a2 2 0 0 0 2.879.052 2.12 2.12 0 0 0-.004-3 2.124 2.124 0 1 0 3-3 2.124 2.124 0 0 0 3.004 0 2 2 0 0 0 0-2.828l-1.881-1.882a2.41 2.41 0 0 0-3.409 0l-1.71 1.71a2 2 0 0 1-2.828 0 2 2 0 0 1 0-2.828l2.823-2.762",
 	key: "17lmqv"
 }]]);
+var House = createLucideIcon("house", [["path", {
+	d: "M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8",
+	key: "5wwlr5"
+}], ["path", {
+	d: "M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z",
+	key: "r6nss1"
+}]]);
 var Mail = createLucideIcon("mail", [["path", {
 	d: "m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7",
 	key: "132q7q"
@@ -19013,6 +19027,24 @@ var MapPin = createLucideIcon("map-pin", [["path", {
 	r: "3",
 	key: "ilqhr7"
 }]]);
+var Maximize = createLucideIcon("maximize", [
+	["path", {
+		d: "M8 3H5a2 2 0 0 0-2 2v3",
+		key: "1dcmit"
+	}],
+	["path", {
+		d: "M21 8V5a2 2 0 0 0-2-2h-3",
+		key: "1e4gt3"
+	}],
+	["path", {
+		d: "M3 16v3a2 2 0 0 0 2 2h3",
+		key: "wsl5sc"
+	}],
+	["path", {
+		d: "M16 21h3a2 2 0 0 0 2-2v-3",
+		key: "18trek"
+	}]
+]);
 var Menu = createLucideIcon("menu", [
 	["path", {
 		d: "M4 5h16",
@@ -19031,6 +19063,31 @@ var MessageCircle = createLucideIcon("message-circle", [["path", {
 	d: "M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719",
 	key: "1sd12s"
 }]]);
+var PanelTop = createLucideIcon("panel-top", [["rect", {
+	width: "18",
+	height: "18",
+	x: "3",
+	y: "3",
+	rx: "2",
+	key: "afitv7"
+}], ["path", {
+	d: "M3 9h18",
+	key: "1pudct"
+}]]);
+var PhoneCall = createLucideIcon("phone-call", [
+	["path", {
+		d: "M13 2a9 9 0 0 1 9 9",
+		key: "1itnx2"
+	}],
+	["path", {
+		d: "M13 6a5 5 0 0 1 5 5",
+		key: "11nki7"
+	}],
+	["path", {
+		d: "M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384",
+		key: "9njp5v"
+	}]
+]);
 var Phone = createLucideIcon("phone", [["path", {
 	d: "M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384",
 	key: "9njp5v"
@@ -19041,6 +19098,10 @@ var ShieldCheck = createLucideIcon("shield-check", [["path", {
 }], ["path", {
 	d: "m9 12 2 2 4-4",
 	key: "dzmm74"
+}]]);
+var Shield = createLucideIcon("shield", [["path", {
+	d: "M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z",
+	key: "oel41y"
 }]]);
 var Sun = createLucideIcon("sun", [
 	["circle", {
@@ -19082,16 +19143,19 @@ var Sun = createLucideIcon("sun", [
 		key: "1shlcs"
 	}]
 ]);
+var TrendingDown = createLucideIcon("trending-down", [["path", {
+	d: "M16 17h6v-6",
+	key: "t6n2it"
+}], ["path", {
+	d: "m22 17-8.5-8.5-5 5L2 7",
+	key: "x473p"
+}]]);
 var TrendingUp = createLucideIcon("trending-up", [["path", {
 	d: "M16 7h6v6",
 	key: "box55l"
 }], ["path", {
 	d: "m22 7-8.5 8.5-5-5L2 17",
 	key: "1t1m79"
-}]]);
-var Wrench = createLucideIcon("wrench", [["path", {
-	d: "M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.106-3.105c.32-.322.863-.22.983.218a6 6 0 0 1-8.259 7.057l-7.91 7.91a1 1 0 0 1-2.999-3l7.91-7.91a6 6 0 0 1 7.057-8.259c.438.12.54.662.219.984z",
-	key: "1ngwbx"
 }]]);
 var X = createLucideIcon("x", [["path", {
 	d: "M18 6 6 18",
@@ -23925,10 +23989,10 @@ Button.displayName = "Button";
 function Hero() {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", {
 		id: "inicio",
-		className: "relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden",
+		className: "relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden bg-slate-50",
 		children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-			className: "absolute inset-0 z-0 bg-slate-50",
-			children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "absolute top-0 right-0 w-[800px] h-[800px] bg-primary/5 rounded-full blur-3xl translate-x-1/3 -translate-y-1/4" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "absolute bottom-0 left-0 w-[600px] h-[600px] bg-secondary/5 rounded-full blur-3xl -translate-x-1/3 translate-y-1/4" })]
+			className: "absolute inset-0 z-0",
+			children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "absolute top-0 right-0 w-[800px] h-[800px] bg-primary/10 rounded-full blur-3xl translate-x-1/3 -translate-y-1/4" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "absolute bottom-0 left-0 w-[600px] h-[600px] bg-blue-500/5 rounded-full blur-3xl -translate-x-1/3 translate-y-1/4" })]
 		}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 			className: "container mx-auto px-4 relative z-10",
 			children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
@@ -23937,84 +24001,73 @@ function Hero() {
 					className: "max-w-2xl opacity-0 animate-fade-in-up",
 					children: [
 						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-							className: "inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-primary/10 text-secondary font-medium text-sm mb-6 border border-primary/20",
-							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Zap, { className: "h-4 w-4 text-primary" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Energia limpa e inteligente" })]
+							className: "inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-primary/10 text-primary font-semibold text-sm mb-6 border border-primary/20 shadow-sm",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Sun, { className: "h-4 w-4" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Conforto + Economia = Qualidade de Vida" })]
 						}),
 						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("h1", {
-							className: "text-4xl md:text-5xl lg:text-6xl font-extrabold text-secondary leading-[1.1] mb-6 tracking-tight",
+							className: "text-4xl md:text-5xl lg:text-6xl font-extrabold text-slate-900 leading-[1.1] mb-6 tracking-tight",
 							children: [
-								"Conforto e Economia: A ",
+								"Transforme a luz do sol em ",
 								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 									className: "text-primary",
-									children: "Oriental Solar"
+									children: "conforto real"
 								}),
-								" transforma a luz do sol em qualidade de vida."
+								" para sua família."
 							]
 						}),
 						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 							className: "text-lg md:text-xl text-slate-600 mb-8 leading-relaxed",
-							children: "Valorize seu imóvel, zere sua conta de luz e desfrute do conforto que sua família merece, com a segurança de uma instalação premium."
+							children: "Ligue o ar condicionado sem medo da conta no fim do mês. A Oriental Solar entrega sistemas fotovoltaicos premium para você zerar sua conta de luz e valorizar seu imóvel com total segurança."
 						}),
 						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 							className: "flex flex-col sm:flex-row gap-4 mb-10",
 							children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
 								size: "lg",
 								asChild: true,
-								className: "text-base rounded-full shadow-lg hover:shadow-xl transition-all hover:-translate-y-1",
+								className: "text-base h-14 px-8 rounded-full shadow-lg hover:shadow-xl transition-all hover:-translate-y-1 bg-primary text-primary-foreground",
 								children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
 									href: "#simulador",
-									children: ["Faça uma simulação", /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ArrowRight, { className: "ml-2 h-5 w-5" })]
+									children: ["Fazer simulação gratuita", /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ArrowRight, { className: "ml-2 h-5 w-5" })]
 								})
 							})
 						}),
 						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-							className: "flex items-center gap-6 text-sm font-medium text-slate-500",
+							className: "flex flex-wrap items-center gap-4 sm:gap-6 text-sm font-medium text-slate-600",
 							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-								className: "flex items-center gap-2",
-								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(ShieldCheck, { className: "h-5 w-5 text-primary" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Instalação Segura" })]
+								className: "flex items-center gap-2 bg-white/70 backdrop-blur px-4 py-2.5 rounded-xl border border-slate-200 shadow-sm",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(ShieldCheck, { className: "h-5 w-5 text-green-500" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Instalação Premium" })]
 							}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-								className: "flex items-center gap-2",
-								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(ShieldCheck, { className: "h-5 w-5 text-primary" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Suporte Dedicado" })]
+								className: "flex items-center gap-2 bg-white/70 backdrop-blur px-4 py-2.5 rounded-xl border border-slate-200 shadow-sm",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Zap, { className: "h-5 w-5 text-amber-500" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Alta Eficiência" })]
 							})]
 						})
 					]
 				}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 					className: "relative opacity-0 animate-fade-in-up delay-200 lg:ml-auto",
 					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-						className: "relative rounded-2xl overflow-hidden shadow-2xl aspect-[4/3] max-w-lg mx-auto border border-white/20",
+						className: "relative rounded-[2rem] overflow-hidden shadow-2xl aspect-[4/3] max-w-lg mx-auto border-4 border-white",
 						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
 							src: "https://img.usecurling.com/p/800/600?q=modern%20house%20solar%20panels&dpr=2",
 							alt: "Casa moderna com painéis solares no telhado",
 							className: "w-full h-full object-cover"
 						}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-							className: "absolute inset-0 bg-gradient-to-t from-secondary/80 to-transparent flex flex-col justify-end p-8",
+							className: "absolute inset-0 bg-gradient-to-t from-slate-900/90 via-slate-900/30 to-transparent flex flex-col justify-end p-8",
 							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-								className: "text-white font-medium text-lg",
-								children: "Economia de até 95% na conta de luz"
-							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "w-12 h-1 bg-primary mt-3 rounded-full" })]
+								className: "text-white font-medium text-lg lg:text-xl leading-snug",
+								children: "Pare de pagar aluguel de energia e comece a gerar seu próprio conforto."
+							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "w-12 h-1.5 bg-primary mt-4 rounded-full" })]
 						})]
 					}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-						className: "absolute -bottom-6 -left-6 bg-white p-4 rounded-xl shadow-elevation animate-float border border-slate-100 hidden md:flex items-center gap-4",
+						className: "absolute -bottom-6 -left-6 bg-white p-5 rounded-2xl shadow-xl animate-float border border-slate-100 hidden md:flex items-center gap-4",
 						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-							className: "bg-green-100 p-3 rounded-full",
-							children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("svg", {
-								className: "w-6 h-6 text-green-600",
-								fill: "none",
-								viewBox: "0 0 24 24",
-								stroke: "currentColor",
-								children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", {
-									strokeLinecap: "round",
-									strokeLinejoin: "round",
-									strokeWidth: 2,
-									d: "M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"
-								})
-							})
+							className: "bg-green-100 p-3 rounded-xl",
+							children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(TrendingDown, { className: "w-6 h-6 text-green-600" })
 						}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 							className: "text-sm text-slate-500 font-medium",
-							children: "Retorno do Investimento"
+							children: "Economia Imediata"
 						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-							className: "text-lg font-bold text-secondary",
-							children: "3 a 5 anos"
+							className: "text-xl font-bold text-slate-900",
+							children: "Até 95% a menos"
 						})] })]
 					})]
 				})]
@@ -24060,59 +24113,59 @@ var CardFooter = import_react.forwardRef(({ className, ...props }, ref) => /* @_
 CardFooter.displayName = "CardFooter";
 var benefits = [
 	{
-		icon: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Award, { className: "h-10 w-10 text-primary" }),
+		icon: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Award, { className: "h-8 w-8 text-primary" }),
 		title: "Equipamentos Premium",
 		description: "Trabalhamos apenas com as melhores marcas do mercado global, garantindo alta eficiência de geração e durabilidade superior a 25 anos."
 	},
 	{
-		icon: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Wrench, { className: "h-10 w-10 text-primary" }),
-		title: "Instalação Impecável",
-		description: "Nossa engenharia cuida de cada detalhe estético e técnico. Nada de fios aparentes ou telhados danificados. O acabamento é perfeito."
+		icon: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Shield, { className: "h-8 w-8 text-primary" }),
+		title: "Instalação Segura",
+		description: "Nossa engenharia cuida de cada detalhe estético e técnico. Sem fios aparentes ou telhados danificados. O acabamento é impecável e seguro."
 	},
 	{
-		icon: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(HeartHandshake, { className: "h-10 w-10 text-primary" }),
-		title: "Suporte Contínuo",
+		icon: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(HeartHandshake, { className: "h-8 w-8 text-primary" }),
+		title: "Suporte Humanizado",
 		description: "Não apenas instalamos. Monitoramos sua geração de energia e oferecemos suporte rápido sempre que você precisar, sem burocracia."
 	}
 ];
 function Benefits() {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("section", {
 		id: "vantagens",
-		className: "py-24 bg-white",
+		className: "py-24 bg-white relative",
 		children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-			className: "container mx-auto px-4",
+			className: "container mx-auto px-4 relative z-10",
 			children: [
 				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 					className: "text-center max-w-3xl mx-auto mb-16",
 					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
-						className: "text-3xl md:text-4xl font-bold text-secondary mb-4",
-						children: "Por que escolher a Oriental Solar?"
+						className: "text-3xl md:text-4xl font-extrabold text-slate-900 mb-6",
+						children: "A qualidade que sua família merece"
 					}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
-						className: "text-lg text-slate-600",
+						className: "text-lg text-slate-600 leading-relaxed",
 						children: [
 							"Diferente do mercado padrão que foca apenas em preço, nós entregamos uma",
 							" ",
 							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("strong", {
-								className: "text-secondary font-semibold",
+								className: "text-slate-900 font-semibold",
 								children: "experiência premium"
 							}),
-							". Energia solar é um investimento a longo prazo, e a qualidade faz toda a diferença."
+							". Energia solar é um investimento de longo prazo para a valorização do seu patrimônio."
 						]
 					})]
 				}),
 				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-					className: "grid md:grid-cols-3 gap-8 mb-16",
+					className: "grid md:grid-cols-3 gap-8 mb-20",
 					children: benefits.map((benefit, index$1) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Card, {
-						className: "border-none shadow-subtle hover:shadow-elevation transition-all duration-300 group",
+						className: "border border-slate-100 shadow-md hover:shadow-xl transition-all duration-300 group bg-slate-50/50 hover:bg-white",
 						children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(CardContent, {
 							className: "p-8",
 							children: [
 								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-									className: "mb-6 p-4 bg-slate-50 rounded-2xl inline-block group-hover:bg-primary/10 transition-colors",
+									className: "mb-6 p-4 bg-white rounded-2xl shadow-sm inline-block group-hover:bg-primary/10 transition-colors border border-slate-100",
 									children: benefit.icon
 								}),
 								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
-									className: "text-xl font-bold text-secondary mb-3",
+									className: "text-xl font-bold text-slate-900 mb-3",
 									children: benefit.title
 								}),
 								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
@@ -24123,52 +24176,52 @@ function Benefits() {
 						})
 					}, index$1))
 				}),
-				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-					className: "bg-secondary rounded-3xl overflow-hidden shadow-2xl",
-					children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-						className: "grid md:grid-cols-2 items-center",
+				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					className: "bg-slate-900 rounded-[2.5rem] overflow-hidden shadow-2xl relative",
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "absolute top-0 right-0 w-1/2 h-full bg-primary/10 blur-[100px] pointer-events-none" }), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+						className: "grid lg:grid-cols-2 items-center relative z-10",
 						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 							className: "p-10 md:p-16 text-white",
 							children: [
 								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-									className: "inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 text-primary font-medium text-sm mb-6",
-									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Zap, { className: "h-4 w-4" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "O Fim das Surpresas na Conta" })]
+									className: "inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/10 text-primary font-medium text-sm mb-8 border border-white/10",
+									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(House, { className: "h-4 w-4" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Conforto em Primeiro Lugar" })]
 								}),
 								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
-									className: "text-3xl font-bold mb-4",
+									className: "text-3xl md:text-4xl font-bold mb-6 leading-tight",
 									children: "Ligue o ar condicionado sem medo da conta de luz."
 								}),
 								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-									className: "text-secondary-foreground/80 mb-8 text-lg",
-									children: "Com um sistema fotovoltaico bem dimensionado, você protege sua família dos aumentos tarifários constantes e aproveita o conforto da sua casa sem culpa."
+									className: "text-slate-300 mb-8 text-lg leading-relaxed",
+									children: "Com um sistema fotovoltaico bem dimensionado, você blinda sua família contra as bandeiras tarifárias e aproveita a sua casa do jeito que sempre quis."
 								}),
 								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("ul", {
-									className: "space-y-3",
+									className: "space-y-4",
 									children: [
-										"Valorização imediata do imóvel",
-										"Imunidade à inflação energética",
-										"Energia limpa e sustentável"
+										"Valorização imediata do seu imóvel",
+										"Proteção contra a inflação energética",
+										"Retorno financeiro em 3 a 5 anos"
 									].map((item, i) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", {
-										className: "flex items-center gap-3",
+										className: "flex items-center gap-4",
 										children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-											className: "bg-primary/20 p-1 rounded-full",
+											className: "bg-primary/20 p-1.5 rounded-full border border-primary/30",
 											children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ChevronRight, { className: "h-4 w-4 text-primary" })
 										}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-											className: "font-medium",
+											className: "font-medium text-slate-200",
 											children: item
 										})]
 									}, i))
 								})
 							]
 						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-							className: "h-full min-h-[300px] relative hidden md:block",
+							className: "h-full min-h-[400px] relative hidden lg:block",
 							children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
-								src: "https://img.usecurling.com/p/600/600?q=family%20living%20room%20air%20conditioner",
-								alt: "Família confortável na sala",
-								className: "absolute inset-0 w-full h-full object-cover"
+								src: "https://img.usecurling.com/p/800/800?q=family%20living%20room%20air%20conditioner",
+								alt: "Família confortável na sala com ar condicionado",
+								className: "absolute inset-0 w-full h-full object-cover rounded-l-[2.5rem] border-l border-slate-800"
 							})
 						})]
-					})
+					})]
 				})
 			]
 		})
@@ -24241,7 +24294,7 @@ var Label = import_react.forwardRef(({ className, ...props }, ref) => /* @__PURE
 }));
 Label.displayName = Root$1.displayName;
 const WHATSAPP_NUMBER = "5521971664200";
-const DEFAULT_WHATSAPP_MESSAGE = "Olá, vi o site da Oriental Solar e gostaria de saber mais sobre como economizar com energia solar.";
+const DEFAULT_WHATSAPP_MESSAGE = "Olá, vi o site da Oriental Solar e gostaria de saber mais sobre como ter conforto e economia com energia solar.";
 const getWhatsAppLink = (text = DEFAULT_WHATSAPP_MESSAGE) => `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`;
 function Simulator() {
 	const [billValue, setBillValue] = (0, import_react.useState)("");
@@ -24252,134 +24305,237 @@ function Simulator() {
 		if (isNaN(value) || value <= 0) return;
 		const monthlySavings = value * .9;
 		const annualSavings = monthlySavings * 12;
+		const twentyYearsSavings = annualSavings * 20;
+		const systemSizeKwp = value / 1 / 120;
+		const panels = Math.ceil(systemSizeKwp * 1e3 / 550);
+		const area = panels * 2.5;
 		setResult({
 			monthly: monthlySavings,
 			annual: annualSavings,
-			twentyYears: annualSavings * 20
+			twentyYears: twentyYearsSavings,
+			systemSize: Number(systemSizeKwp.toFixed(2)),
+			panels,
+			area: Number(area.toFixed(1))
 		});
 	};
 	const formatCurrency = (val) => {
 		return new Intl.NumberFormat("pt-BR", {
 			style: "currency",
-			currency: "BRL"
+			currency: "BRL",
+			maximumFractionDigits: 0
 		}).format(val);
 	};
-	const resultMessage = result ? `Olá! Fiz uma simulação no site da Oriental Solar. Minha conta de luz é de R$ ${billValue} e vi que posso economizar até ${formatCurrency(result.annual)} por ano. Gostaria de um orçamento.` : void 0;
+	const resultMessage = result ? `Olá! Fiz uma simulação no site da Oriental Solar. Minha conta de luz é de R$ ${billValue} e vi que preciso de um sistema de aprox. ${result.systemSize}kWp (${result.panels} placas). Gostaria de um orçamento para minha residência.` : void 0;
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", {
 		id: "simulador",
 		className: "py-24 bg-slate-50 relative overflow-hidden",
-		children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-3xl h-full bg-primary/5 blur-3xl rounded-full z-0" }), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+		children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-4xl h-[500px] bg-primary/10 blur-[120px] rounded-full z-0 pointer-events-none" }), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 			className: "container mx-auto px-4 relative z-10",
 			children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-				className: "text-center max-w-2xl mx-auto mb-12",
+				className: "text-center max-w-2xl mx-auto mb-16",
 				children: [
-					/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Calculator, { className: "h-12 w-12 text-primary mx-auto mb-4" }),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+						className: "inline-flex items-center justify-center p-4 bg-white rounded-2xl shadow-sm border border-slate-100 mb-6",
+						children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Calculator, { className: "h-10 w-10 text-primary" })
+					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
-						className: "text-3xl md:text-4xl font-bold text-secondary mb-4",
-						children: "Simulador de Economia"
+						className: "text-3xl md:text-4xl font-extrabold text-slate-900 mb-6",
+						children: "Simulador de Energia Solar"
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 						className: "text-lg text-slate-600",
-						children: "Descubra quanto você pode economizar gerando sua própria energia. Insira o valor médio da sua conta de luz abaixo."
+						children: "Descubra o tamanho do sistema ideal para o seu consumo e projete sua economia financeira."
 					})
 				]
 			}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-				className: "max-w-4xl mx-auto grid md:grid-cols-2 gap-8 items-start",
+				className: "max-w-5xl mx-auto grid lg:grid-cols-12 gap-8 items-stretch",
 				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Card, {
-					className: "shadow-elevation border-none",
+					className: "lg:col-span-5 shadow-xl border-0 overflow-hidden bg-white/80 backdrop-blur-xl",
 					children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(CardContent, {
-						className: "p-8",
+						className: "p-8 md:p-10 h-full flex flex-col justify-center",
 						children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("form", {
 							onSubmit: handleCalculate,
-							className: "space-y-6",
+							className: "space-y-8",
 							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-								className: "space-y-2",
+								className: "space-y-4",
 								children: [
 									/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Label, {
 										htmlFor: "bill",
-										className: "text-base font-semibold text-secondary",
-										children: "Qual o valor médio mensal da sua conta de luz?"
+										className: "text-xl font-bold text-slate-900 block",
+										children: "Valor médio da conta de luz"
+									}),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+										className: "text-slate-500 text-sm mb-4",
+										children: "Insira o valor aproximado que você paga mensalmente para a concessionária."
 									}),
 									/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 										className: "relative",
 										children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-											className: "absolute left-4 top-1/2 -translate-y-1/2 text-slate-500 font-medium",
+											className: "absolute left-5 top-1/2 -translate-y-1/2 text-slate-400 font-bold text-xl",
 											children: "R$"
 										}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Input, {
 											id: "bill",
 											type: "number",
 											placeholder: "Ex: 500",
-											className: "pl-12 h-14 text-lg bg-slate-50 border-slate-200 focus-visible:ring-primary focus-visible:border-primary transition-all",
+											className: "pl-14 h-16 text-2xl font-bold bg-white border-2 border-slate-200 focus-visible:ring-primary focus-visible:border-primary transition-all rounded-xl shadow-sm",
 											value: billValue,
 											onChange: (e) => setBillValue(e.target.value),
 											required: true,
 											min: "100"
 										})]
-									}),
-									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-										className: "text-sm text-slate-500 mt-2",
-										children: "Valor mínimo recomendado para sistema solar: R$ 100,00"
 									})
 								]
 							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
 								type: "submit",
-								className: "w-full h-14 text-lg font-bold rounded-xl shadow-md hover:scale-[1.02] transition-transform",
-								children: "Calcular Economia"
+								className: "w-full h-16 text-lg font-bold rounded-xl shadow-lg hover:shadow-xl transition-all bg-slate-900 text-white hover:bg-slate-800",
+								children: "Calcular Sistema e Economia"
 							})]
 						})
 					})
 				}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-					className: "h-full",
+					className: "lg:col-span-7 h-full",
 					children: !result ? /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-						className: "h-full border-2 border-dashed border-slate-200 rounded-xl flex flex-col items-center justify-center p-8 text-center text-slate-400 bg-white/50",
-						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Sun, { className: "h-12 w-12 mb-4 opacity-50" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-							className: "text-lg font-medium",
-							children: "Preencha o valor ao lado para ver sua projeção de economia."
-						})]
-					}) : /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-						className: "bg-secondary text-white rounded-xl p-8 shadow-elevation h-full flex flex-col justify-between animate-fade-in-up",
-						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-							className: "flex items-center gap-2 mb-6",
-							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(TrendingUp, { className: "h-6 w-6 text-primary" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
-								className: "text-xl font-bold",
-								children: "Sua economia estimada"
-							})]
-						}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-							className: "space-y-6 mb-8",
-							children: [
-								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-									className: "text-secondary-foreground/70 text-sm font-medium mb-1",
-									children: "Economia Mensal (aprox.)"
-								}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-									className: "text-3xl font-bold text-primary",
-									children: formatCurrency(result.monthly)
-								})] }),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "w-full h-px bg-white/10" }),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-									className: "text-secondary-foreground/70 text-sm font-medium mb-1",
-									children: "Economia em 1 Ano"
-								}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-									className: "text-2xl font-bold",
-									children: formatCurrency(result.annual)
-								})] }),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-									className: "text-secondary-foreground/70 text-sm font-medium mb-1",
-									children: "Economia em 20 Anos"
-								}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-									className: "text-2xl font-bold text-green-400",
-									children: formatCurrency(result.twentyYears)
-								})] })
-							]
-						})] }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
-							asChild: true,
-							className: "w-full bg-[#25D366] hover:bg-[#20bd5a] text-white font-bold h-14 text-base rounded-xl group",
-							children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
-								href: getWhatsAppLink(resultMessage),
-								target: "_blank",
-								rel: "noopener noreferrer",
-								children: ["Solicitar orçamento exato", /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ArrowRight, { className: "ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" })]
+						className: "h-full border-2 border-dashed border-slate-300 rounded-2xl flex flex-col items-center justify-center p-12 text-center text-slate-400 bg-white/40 backdrop-blur-sm min-h-[400px]",
+						children: [
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Sun, { className: "h-16 w-16 mb-6 text-slate-300" }),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+								className: "text-xl font-semibold text-slate-500 mb-2",
+								children: "Aguardando valor"
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+								className: "text-base max-w-sm",
+								children: "Preencha o valor da sua conta ao lado para visualizar a estimativa técnica do seu sistema."
 							})
-						})]
+						]
+					}) : /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+						className: "bg-slate-900 text-white rounded-2xl p-8 md:p-10 shadow-2xl h-full flex flex-col animate-fade-in-up border border-slate-800 min-h-[400px]",
+						children: [
+							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+								className: "flex-grow",
+								children: [
+									/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+										className: "flex items-center gap-4 mb-8",
+										children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+											className: "bg-primary/20 p-3 rounded-xl border border-primary/30",
+											children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(TrendingUp, { className: "h-6 w-6 text-primary" })
+										}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
+											className: "text-2xl font-bold",
+											children: "Projeção de Viabilidade"
+										})]
+									}),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+										className: "grid sm:grid-cols-2 gap-4 mb-8",
+										children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+											className: "bg-slate-800/60 p-5 rounded-xl border border-slate-700/50",
+											children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+												className: "text-slate-400 text-sm font-medium mb-2 uppercase tracking-wider",
+												children: "Economia Mensal"
+											}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+												className: "text-3xl font-extrabold text-primary",
+												children: formatCurrency(result.monthly)
+											})]
+										}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+											className: "bg-slate-800/60 p-5 rounded-xl border border-slate-700/50",
+											children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+												className: "text-slate-400 text-sm font-medium mb-2 uppercase tracking-wider",
+												children: "Economia em 1 Ano"
+											}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+												className: "text-3xl font-extrabold text-white",
+												children: formatCurrency(result.annual)
+											})]
+										})]
+									}),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+										className: "bg-slate-800/80 rounded-xl p-6 border border-slate-700 mb-8",
+										children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h4", {
+											className: "text-sm font-bold text-slate-300 uppercase tracking-wider mb-5",
+											children: "Dimensionamento Estimado"
+										}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+											className: "grid grid-cols-1 sm:grid-cols-3 gap-6",
+											children: [
+												/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+													className: "flex flex-col gap-2",
+													children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+														className: "flex items-center gap-2 text-slate-400",
+														children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Zap, { className: "h-4 w-4 text-primary" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+															className: "text-sm font-medium",
+															children: "Potência"
+														})]
+													}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
+														className: "text-xl font-bold text-white",
+														children: [
+															result.systemSize,
+															" ",
+															/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+																className: "text-sm font-normal text-slate-400",
+																children: "kWp"
+															})
+														]
+													})]
+												}),
+												/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "hidden sm:block w-px h-full bg-slate-700 mx-auto" }),
+												/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+													className: "flex flex-col gap-2",
+													children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+														className: "flex items-center gap-2 text-slate-400",
+														children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(PanelTop, { className: "h-4 w-4 text-primary" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+															className: "text-sm font-medium",
+															children: "Módulos"
+														})]
+													}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
+														className: "text-xl font-bold text-white",
+														children: [
+															"~ ",
+															result.panels,
+															" ",
+															/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+																className: "text-sm font-normal text-slate-400",
+																children: "un."
+															})
+														]
+													})]
+												}),
+												/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "hidden sm:block w-px h-full bg-slate-700 mx-auto" }),
+												/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+													className: "flex flex-col gap-2",
+													children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+														className: "flex items-center gap-2 text-slate-400",
+														children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Maximize, { className: "h-4 w-4 text-primary" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+															className: "text-sm font-medium",
+															children: "Área Mínima"
+														})]
+													}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
+														className: "text-xl font-bold text-white",
+														children: [
+															result.area,
+															" ",
+															/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+																className: "text-sm font-normal text-slate-400",
+																children: "m²"
+															})
+														]
+													})]
+												})
+											]
+										})]
+									})
+								]
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
+								asChild: true,
+								className: "w-full bg-[#25D366] hover:bg-[#20bd5a] text-white font-bold h-16 text-lg rounded-xl group shadow-lg shadow-[#25D366]/20 mt-auto",
+								children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
+									href: getWhatsAppLink(resultMessage),
+									target: "_blank",
+									rel: "noopener noreferrer",
+									children: ["Receber Orçamento Exato", /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ArrowRight, { className: "ml-2 h-6 w-6 group-hover:translate-x-1 transition-transform" })]
+								})
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+								className: "text-center text-xs text-slate-500 mt-5",
+								children: "* Resultados baseados em médias de consumo e irradiação solar. A análise técnica definirá o projeto final."
+							})
+						]
 					})
 				})]
 			})]
@@ -24772,39 +24928,39 @@ AccordionContent.displayName = Content2.displayName;
 var faqs = [
 	{
 		question: "A energia solar funciona em dias nublados ou chovendo?",
-		answer: "Sim! Os painéis solares geram energia a partir da luz do sol, não do calor. Mesmo em dias nublados, há luminosidade suficiente para gerar energia, embora a eficiência seja menor do que em um dia de céu limpo. O sistema é dimensionado considerando essas variações."
+		answer: "Sim! Os painéis solares geram energia a partir da luz do sol (irradiação), não do calor. Mesmo em dias nublados, há luminosidade suficiente para gerar energia, embora a eficiência seja menor do que em um dia de céu limpo. Nosso sistema é dimensionado anualmente já considerando essas variações climáticas."
 	},
 	{
 		question: "Quanto tempo dura o sistema e qual a garantia?",
-		answer: "Os painéis solares premium que utilizamos possuem vida útil superior a 25 anos, com garantia de performance do fabricante garantindo pelo menos 80% da geração após este período. Os inversores geralmente possuem garantia de 5 a 10 anos, dependendo da marca."
+		answer: "Os painéis solares premium que utilizamos possuem vida útil superior a 25 anos. O fabricante garante pelo menos 80% da eficiência original de geração após este período. Os inversores, o \"cérebro\" do sistema, geralmente possuem garantia de 5 a 10 anos."
 	},
 	{
 		question: "Meu telhado suporta o peso das placas?",
-		answer: "A estrutura de fixação e os painéis pesam em média 15kg por metro quadrado, o que é suportado tranquilamente pela vasta maioria dos telhados (cerâmica, fibrocimento, metálico). Nossa equipe de engenharia sempre realiza uma avaliação estrutural antes da instalação para garantir total segurança."
+		answer: "A estrutura de fixação e os painéis pesam em média 15kg por metro quadrado. É um peso suportado tranquilamente pela vasta maioria dos telhados (cerâmica, fibrocimento, metálico). De qualquer forma, nossa equipe de engenharia realiza uma avaliação estrutural prévia para garantir 100% de segurança."
 	},
 	{
 		question: "Eu ainda vou precisar pagar conta de luz?",
-		answer: "Você deixará de pagar o consumo de energia, mas a concessionária local (como a Light ou Enel) cobra uma \"taxa mínima\" ou custo de disponibilidade por você estar conectado à rede, além da taxa de iluminação pública. Sua conta reduzirá drasticamente, geralmente em até 90-95%."
+		answer: "Você deixará de pagar o consumo de energia injetado, mas a concessionária local (Light/Enel) cobra uma taxa mínima (custo de disponibilidade) por você estar conectado à rede deles, além da taxa de iluminação pública. Sua conta reduzirá drasticamente, muitas vezes chegando a 95% de economia."
 	},
 	{
 		question: "Como funciona a manutenção do sistema?",
-		answer: "A manutenção é extremamente simples e de baixo custo. Consiste basicamente na limpeza dos módulos solares com água (caso fiquem muito sujos devido à poeira ou poluição) e uma inspeção visual preventiva, geralmente realizada uma vez ao ano."
+		answer: "A manutenção é extremamente simples, de baixíssimo custo e sem dor de cabeça. Consiste basicamente na limpeza dos módulos solares com água para retirar poeira ou poluição, e uma inspeção visual preventiva que recomendamos realizar uma vez ao ano."
 	}
 ];
 function FAQ() {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("section", {
 		id: "faq",
-		className: "py-24 bg-white",
+		className: "py-24 bg-slate-50",
 		children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 			className: "container mx-auto px-4 max-w-4xl",
 			children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 				className: "text-center mb-16",
 				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
-					className: "text-3xl md:text-4xl font-bold text-secondary mb-4",
+					className: "text-3xl md:text-4xl font-extrabold text-slate-900 mb-6",
 					children: "Dúvidas Frequentes"
 				}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 					className: "text-lg text-slate-600",
-					children: "Respostas claras para você investir com total segurança."
+					children: "Respostas claras e transparentes para você investir no conforto da sua casa com total segurança."
 				})]
 			}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Accordion, {
 				type: "single",
@@ -24812,9 +24968,9 @@ function FAQ() {
 				className: "w-full space-y-4",
 				children: faqs.map((faq, index$1) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(AccordionItem, {
 					value: `item-${index$1}`,
-					className: "bg-slate-50 border-none rounded-xl px-6",
+					className: "bg-white border border-slate-200 shadow-sm rounded-xl px-6 data-[state=open]:border-primary/50 data-[state=open]:shadow-md transition-all",
 					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(AccordionTrigger, {
-						className: "text-left font-semibold text-secondary text-lg py-6 hover:no-underline hover:text-primary transition-colors",
+						className: "text-left font-bold text-slate-800 text-lg py-6 hover:no-underline hover:text-primary transition-colors",
 						children: faq.question
 					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(AccordionContent, {
 						className: "text-slate-600 text-base pb-6 leading-relaxed",
@@ -24827,41 +24983,53 @@ function FAQ() {
 }
 function CTA() {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", {
-		className: "py-24 relative overflow-hidden",
-		children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-			className: "absolute inset-0 bg-secondary z-0",
-			children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
+		className: "py-24 relative overflow-hidden bg-slate-900",
+		children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+			className: "absolute inset-0 z-0",
+			children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
 				src: "https://img.usecurling.com/p/1200/400?q=solar%20panels%20sunset&dpr=2",
 				alt: "Painéis Solares no Pôr do Sol",
-				className: "w-full h-full object-cover opacity-20 mix-blend-overlay"
-			})
+				className: "w-full h-full object-cover opacity-30 mix-blend-overlay"
+			}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "absolute inset-0 bg-gradient-to-b from-slate-900/50 to-slate-900" })]
 		}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 			className: "container mx-auto px-4 relative z-10 text-center",
 			children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 				className: "max-w-3xl mx-auto",
 				children: [
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+						className: "inline-flex items-center justify-center p-3 bg-primary/20 rounded-2xl mb-6",
+						children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Sun, { className: "h-8 w-8 text-primary" })
+					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
-						className: "text-4xl md:text-5xl font-bold text-white mb-6 tracking-tight",
-						children: "Pronto para economizar com conforto?"
+						className: "text-4xl md:text-5xl font-extrabold text-white mb-6 tracking-tight",
+						children: "Pronto para ter mais conforto pagando menos?"
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-						className: "text-xl text-secondary-foreground/80 mb-10 leading-relaxed",
-						children: "Fale com um de nossos especialistas agora mesmo. Faremos uma análise gratuita do seu consumo e apresentaremos o projeto ideal para sua casa."
+						className: "text-xl text-slate-300 mb-10 leading-relaxed",
+						children: "Fale com um de nossos especialistas agora mesmo. Faremos uma análise gratuita da sua viabilidade técnica e apresentaremos o projeto ideal para sua casa."
 					}),
-					/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
-						size: "lg",
-						asChild: true,
-						className: "bg-[#25D366] hover:bg-[#20bd5a] text-white font-bold h-16 px-8 text-lg rounded-full shadow-xl hover:shadow-2xl transition-all hover:scale-105 group",
-						children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
-							href: getWhatsAppLink(),
-							target: "_blank",
-							rel: "noopener noreferrer",
-							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(MessageCircle, { className: "mr-2 h-6 w-6 group-hover:animate-bounce" }), "Chamar no WhatsApp"]
-						})
-					}),
-					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-						className: "text-secondary-foreground/60 text-sm mt-6",
-						children: "Atendimento rápido e sem compromisso."
+					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+						className: "flex flex-col items-center gap-6",
+						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
+							size: "lg",
+							asChild: true,
+							className: "bg-[#25D366] hover:bg-[#20bd5a] text-white font-bold h-16 px-8 text-lg rounded-full shadow-xl shadow-[#25D366]/20 hover:shadow-2xl transition-all hover:scale-105 group w-full sm:w-auto",
+							children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
+								href: getWhatsAppLink(),
+								target: "_blank",
+								rel: "noopener noreferrer",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(MessageCircle, { className: "mr-2 h-6 w-6 group-hover:animate-bounce" }), "Falar com Especialista no WhatsApp"]
+							})
+						}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+							className: "flex items-center justify-center gap-6 text-sm font-medium text-slate-400",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+								className: "flex items-center gap-2",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(ShieldCheck, { className: "h-5 w-5 text-primary" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Análise Gratuita" })]
+							}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+								className: "flex items-center gap-2",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(ShieldCheck, { className: "h-5 w-5 text-primary" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Sem Compromisso" })]
+							})]
+						})]
 					})
 				]
 			})
@@ -24933,12 +25101,12 @@ function Header() {
 			href: "#simulador"
 		},
 		{
-			name: "FAQ",
+			name: "Dúvidas",
 			href: "#faq"
 		}
 	];
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("header", {
-		className: `fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? "bg-white/90 backdrop-blur-md shadow-sm py-3" : "bg-transparent py-5"}`,
+		className: `fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? "bg-white/95 backdrop-blur-md shadow-sm py-4" : "bg-transparent py-6"}`,
 		children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 			className: "container mx-auto px-4 flex items-center justify-between",
 			children: [
@@ -24946,10 +25114,10 @@ function Header() {
 					href: "#inicio",
 					className: "flex items-center gap-2 group",
 					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-						className: "bg-primary p-2 rounded-lg group-hover:bg-primary/90 transition-colors",
+						className: "bg-primary p-2 rounded-xl group-hover:bg-primary/90 transition-colors shadow-sm",
 						children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Sun, { className: "h-6 w-6 text-primary-foreground" })
 					}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
-						className: "text-xl font-bold tracking-tight text-secondary",
+						className: "text-2xl font-bold tracking-tight text-slate-900",
 						children: ["Oriental ", /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 							className: "text-primary font-black",
 							children: "Solar"
@@ -24959,47 +25127,47 @@ function Header() {
 				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("nav", {
 					className: "hidden md:flex items-center gap-8",
 					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("ul", {
-						className: "flex items-center gap-6",
+						className: "flex items-center gap-8",
 						children: navLinks.map((link) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
 							href: link.href,
-							className: "text-sm font-medium text-slate-700 hover:text-primary transition-colors",
+							className: "text-sm font-semibold text-slate-600 hover:text-primary transition-colors",
 							children: link.name
 						}) }, link.name))
 					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
 						asChild: true,
-						className: "bg-[#25D366] hover:bg-[#20bd5a] text-white font-semibold rounded-full px-6 shadow-elevation transition-all hover:scale-105",
-						children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+						className: "bg-[#25D366] hover:bg-[#20bd5a] text-white font-bold rounded-full px-6 shadow-lg shadow-[#25D366]/20 transition-all hover:scale-105 h-11",
+						children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
 							href: getWhatsAppLink(),
 							target: "_blank",
 							rel: "noopener noreferrer",
-							children: "Falar no WhatsApp"
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(PhoneCall, { className: "mr-2 h-4 w-4" }), "(21) 97166-4200"]
 						})
 					})]
 				}),
 				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
-					className: "md:hidden p-2 text-slate-700",
+					className: "md:hidden p-2 text-slate-900 bg-slate-100 rounded-lg",
 					onClick: () => setMobileMenuOpen(!mobileMenuOpen),
 					children: mobileMenuOpen ? /* @__PURE__ */ (0, import_jsx_runtime.jsx)(X, { className: "h-6 w-6" }) : /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Menu, { className: "h-6 w-6" })
 				})
 			]
 		}), mobileMenuOpen && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-			className: "md:hidden absolute top-full left-0 right-0 bg-white shadow-lg border-t py-4 px-4 flex flex-col gap-4 animate-in slide-in-from-top-2",
+			className: "md:hidden absolute top-full left-0 right-0 bg-white shadow-xl border-t border-slate-100 py-6 px-4 flex flex-col gap-6 animate-in slide-in-from-top-2",
 			children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("ul", {
 				className: "flex flex-col gap-4",
 				children: navLinks.map((link) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
 					href: link.href,
-					className: "block text-base font-medium text-slate-700 hover:text-primary",
+					className: "block text-lg font-semibold text-slate-800 hover:text-primary px-4 py-2 rounded-lg hover:bg-slate-50",
 					onClick: () => setMobileMenuOpen(false),
 					children: link.name
 				}) }, link.name))
 			}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
 				asChild: true,
-				className: "w-full bg-[#25D366] hover:bg-[#20bd5a] text-white font-semibold",
-				children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+				className: "w-full bg-[#25D366] hover:bg-[#20bd5a] text-white font-bold h-14 rounded-xl",
+				children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
 					href: getWhatsAppLink(),
 					target: "_blank",
 					rel: "noopener noreferrer",
-					children: "Falar no WhatsApp"
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(PhoneCall, { className: "mr-2 h-5 w-5" }), "(21) 97166-4200"]
 				})
 			})]
 		})]
@@ -25007,18 +25175,18 @@ function Header() {
 }
 function Footer() {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("footer", {
-		className: "bg-secondary text-secondary-foreground pt-16 pb-8",
+		className: "bg-slate-950 text-slate-400 pt-20 pb-10 border-t border-slate-900",
 		children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 			className: "container mx-auto px-4",
 			children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-				className: "grid grid-cols-1 md:grid-cols-3 gap-12 mb-12",
+				className: "grid grid-cols-1 md:grid-cols-12 gap-12 mb-16",
 				children: [
 					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-						className: "space-y-4",
+						className: "md:col-span-5 space-y-6",
 						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 							className: "flex items-center gap-2",
 							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-								className: "bg-primary p-2 rounded-lg",
+								className: "bg-primary p-2 rounded-xl",
 								children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Sun, { className: "h-6 w-6 text-primary-foreground" })
 							}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
 								className: "text-2xl font-bold tracking-tight text-white",
@@ -25028,72 +25196,96 @@ function Footer() {
 								})]
 							})]
 						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-							className: "text-secondary-foreground/80 max-w-sm",
-							children: "Transformando a luz do sol em qualidade de vida, conforto e economia real para sua casa ou empresa."
+							className: "text-slate-400 max-w-sm leading-relaxed text-lg",
+							children: "Transformando a luz do sol em qualidade de vida, conforto e economia real para sua família ou empresa."
 						})]
 					}),
-					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h4", {
-						className: "text-lg font-semibold mb-6 text-white",
-						children: "Contato"
-					}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("ul", {
-						className: "space-y-4",
-						children: [
-							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", {
-								className: "flex items-center gap-3 text-secondary-foreground/80",
-								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Phone, { className: "h-5 w-5 text-primary" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+						className: "md:col-span-4",
+						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h4", {
+							className: "text-lg font-bold mb-6 text-white",
+							children: "Fale Conosco"
+						}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("ul", {
+							className: "space-y-4",
+							children: [
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
 									href: getWhatsAppLink(),
 									target: "_blank",
 									rel: "noopener noreferrer",
-									className: "hover:text-primary transition-colors",
-									children: "(21) 97166-4200"
-								})]
-							}),
-							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", {
-								className: "flex items-center gap-3 text-secondary-foreground/80",
-								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Mail, { className: "h-5 w-5 text-primary" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "contato@orientalsolar.com.br" })]
-							}),
-							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", {
-								className: "flex items-center gap-3 text-secondary-foreground/80",
-								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(MapPin, { className: "h-5 w-5 text-primary" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Atendimento em todo o Rio de Janeiro" })]
-							})
-						]
-					})] }),
-					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h4", {
-						className: "text-lg font-semibold mb-6 text-white",
-						children: "Links Rápidos"
-					}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("ul", {
-						className: "space-y-3",
-						children: [
-							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
-								href: "#inicio",
-								className: "text-secondary-foreground/80 hover:text-primary transition-colors",
-								children: "Início"
-							}) }),
-							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
-								href: "#vantagens",
-								className: "text-secondary-foreground/80 hover:text-primary transition-colors",
-								children: "Nossos Diferenciais"
-							}) }),
-							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
-								href: "#simulador",
-								className: "text-secondary-foreground/80 hover:text-primary transition-colors",
-								children: "Simulador de Economia"
-							}) })
-						]
-					})] })
+									className: "flex items-center gap-3 hover:text-primary transition-colors group",
+									children: [
+										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+											className: "bg-slate-900 p-2 rounded-lg group-hover:bg-primary/10",
+											children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Phone, { className: "h-5 w-5 text-primary" })
+										}),
+										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+											className: "font-medium text-slate-300",
+											children: "(21) 97166-4200"
+										}),
+										/* @__PURE__ */ (0, import_jsx_runtime.jsx)(ArrowUpRight, { className: "h-4 w-4 opacity-0 group-hover:opacity-100 -translate-x-2 group-hover:translate-x-0 transition-all text-primary" })
+									]
+								}) }),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", {
+									className: "flex items-center gap-3",
+									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+										className: "bg-slate-900 p-2 rounded-lg",
+										children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Mail, { className: "h-5 w-5 text-primary" })
+									}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "contato@orientalsolar.com.br" })]
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", {
+									className: "flex items-center gap-3",
+									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+										className: "bg-slate-900 p-2 rounded-lg",
+										children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(MapPin, { className: "h-5 w-5 text-primary" })
+									}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Atendimento em todo o RJ" })]
+								})
+							]
+						})]
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+						className: "md:col-span-3",
+						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h4", {
+							className: "text-lg font-bold mb-6 text-white",
+							children: "Navegação"
+						}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("ul", {
+							className: "space-y-3",
+							children: [
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+									href: "#inicio",
+									className: "hover:text-primary transition-colors inline-block",
+									children: "Início"
+								}) }),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+									href: "#vantagens",
+									className: "hover:text-primary transition-colors inline-block",
+									children: "Vantagens e Conforto"
+								}) }),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+									href: "#simulador",
+									className: "hover:text-primary transition-colors inline-block",
+									children: "Simulador de Economia"
+								}) }),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+									href: "#faq",
+									className: "hover:text-primary transition-colors inline-block",
+									children: "Dúvidas Frequentes"
+								}) })
+							]
+						})]
+					})
 				]
 			}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-				className: "border-t border-secondary-foreground/10 pt-8 flex flex-col md:flex-row items-center justify-between gap-4",
+				className: "border-t border-slate-800 pt-8 flex flex-col md:flex-row items-center justify-between gap-4",
 				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
-					className: "text-sm text-secondary-foreground/60",
+					className: "text-sm",
 					children: [
 						"© ",
 						(/* @__PURE__ */ new Date()).getFullYear(),
 						" Oriental Solar. Todos os direitos reservados."
 					]
-				}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-					className: "text-sm text-secondary-foreground/60",
-					children: "Desenvolvido para gerar resultados sustentáveis."
+				}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
+					className: "text-sm flex items-center gap-2",
+					children: ["Desenvolvido para gerar resultados", /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Sun, { className: "h-4 w-4 text-primary" })]
 				})]
 			})]
 		})
@@ -25135,4 +25327,4 @@ var App = () => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(BrowserRouter, {
 var App_default = App;
 (0, import_client.createRoot)(document.getElementById("root")).render(/* @__PURE__ */ (0, import_jsx_runtime.jsx)(App_default, {}));
 
-//# sourceMappingURL=index-BjUyskMk.js.map
+//# sourceMappingURL=index-BWpy-FQS.js.map
