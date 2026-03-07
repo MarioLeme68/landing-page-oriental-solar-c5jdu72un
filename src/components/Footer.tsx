@@ -38,17 +38,22 @@ export function Footer() {
                   <ArrowUpRight className="h-4 w-4 opacity-0 group-hover:opacity-100 -translate-x-2 group-hover:translate-x-0 transition-all text-primary" />
                 </a>
               </li>
-              <li className="flex items-center gap-3">
-                <div className="bg-slate-900 p-2 rounded-lg">
-                  <Mail className="h-5 w-5 text-primary" />
-                </div>
-                <span>contato@orientalsolar.com.br</span>
+              <li>
+                <a
+                  href="mailto:contato@orientalsolar.com.br"
+                  className="flex items-center gap-3 hover:text-primary transition-colors group"
+                >
+                  <div className="bg-slate-900 p-2 rounded-lg group-hover:bg-primary/10 transition-colors">
+                    <Mail className="h-5 w-5 text-primary" />
+                  </div>
+                  <span className="font-medium text-slate-300">contato@orientalsolar.com.br</span>
+                </a>
               </li>
               <li className="flex items-center gap-3">
                 <div className="bg-slate-900 p-2 rounded-lg">
                   <MapPin className="h-5 w-5 text-primary" />
                 </div>
-                <span>Atendimento em todo o RJ</span>
+                <span className="font-medium text-slate-300">Atendimento em todo o RJ</span>
               </li>
             </ul>
           </div>
@@ -57,22 +62,34 @@ export function Footer() {
             <h4 className="text-lg font-bold mb-6 text-white">Navegação</h4>
             <ul className="space-y-3">
               <li>
-                <a href="#inicio" className="hover:text-primary transition-colors inline-block">
+                <a
+                  href="#inicio"
+                  className="hover:text-primary transition-colors inline-block font-medium"
+                >
                   Início
                 </a>
               </li>
               <li>
-                <a href="#vantagens" className="hover:text-primary transition-colors inline-block">
+                <a
+                  href="#vantagens"
+                  className="hover:text-primary transition-colors inline-block font-medium"
+                >
                   Vantagens e Conforto
                 </a>
               </li>
               <li>
-                <a href="#simulador" className="hover:text-primary transition-colors inline-block">
+                <a
+                  href="#simulador"
+                  className="hover:text-primary transition-colors inline-block font-medium"
+                >
                   Simulador de Economia
                 </a>
               </li>
               <li>
-                <a href="#faq" className="hover:text-primary transition-colors inline-block">
+                <a
+                  href="#faq"
+                  className="hover:text-primary transition-colors inline-block font-medium"
+                >
                   Dúvidas Frequentes
                 </a>
               </li>
@@ -81,10 +98,10 @@ export function Footer() {
         </div>
 
         <div className="border-t border-slate-800 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-sm">
+          <p className="text-sm font-medium">
             &copy; {new Date().getFullYear()} Oriental Solar. Todos os direitos reservados.
           </p>
-          <p className="text-sm flex items-center gap-2">
+          <p className="text-sm flex items-center gap-2 font-medium">
             Desenvolvido para gerar resultados
             <Sun className="h-4 w-4 text-primary" />
           </p>

@@ -25224,19 +25224,26 @@ function Footer() {
 										/* @__PURE__ */ (0, import_jsx_runtime.jsx)(ArrowUpRight, { className: "h-4 w-4 opacity-0 group-hover:opacity-100 -translate-x-2 group-hover:translate-x-0 transition-all text-primary" })
 									]
 								}) }),
-								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", {
-									className: "flex items-center gap-3",
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
+									href: "mailto:contato@orientalsolar.com.br",
+									className: "flex items-center gap-3 hover:text-primary transition-colors group",
 									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-										className: "bg-slate-900 p-2 rounded-lg",
+										className: "bg-slate-900 p-2 rounded-lg group-hover:bg-primary/10 transition-colors",
 										children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Mail, { className: "h-5 w-5 text-primary" })
-									}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "contato@orientalsolar.com.br" })]
-								}),
+									}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+										className: "font-medium text-slate-300",
+										children: "contato@orientalsolar.com.br"
+									})]
+								}) }),
 								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", {
 									className: "flex items-center gap-3",
 									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 										className: "bg-slate-900 p-2 rounded-lg",
 										children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(MapPin, { className: "h-5 w-5 text-primary" })
-									}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Atendimento em todo o RJ" })]
+									}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+										className: "font-medium text-slate-300",
+										children: "Atendimento em todo o RJ"
+									})]
 								})
 							]
 						})]
@@ -25251,22 +25258,22 @@ function Footer() {
 							children: [
 								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
 									href: "#inicio",
-									className: "hover:text-primary transition-colors inline-block",
+									className: "hover:text-primary transition-colors inline-block font-medium",
 									children: "Início"
 								}) }),
 								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
 									href: "#vantagens",
-									className: "hover:text-primary transition-colors inline-block",
+									className: "hover:text-primary transition-colors inline-block font-medium",
 									children: "Vantagens e Conforto"
 								}) }),
 								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
 									href: "#simulador",
-									className: "hover:text-primary transition-colors inline-block",
+									className: "hover:text-primary transition-colors inline-block font-medium",
 									children: "Simulador de Economia"
 								}) }),
 								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
 									href: "#faq",
-									className: "hover:text-primary transition-colors inline-block",
+									className: "hover:text-primary transition-colors inline-block font-medium",
 									children: "Dúvidas Frequentes"
 								}) })
 							]
@@ -25276,14 +25283,14 @@ function Footer() {
 			}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 				className: "border-t border-slate-800 pt-8 flex flex-col md:flex-row items-center justify-between gap-4",
 				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
-					className: "text-sm",
+					className: "text-sm font-medium",
 					children: [
 						"© ",
 						(/* @__PURE__ */ new Date()).getFullYear(),
 						" Oriental Solar. Todos os direitos reservados."
 					]
 				}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
-					className: "text-sm flex items-center gap-2",
+					className: "text-sm flex items-center gap-2 font-medium",
 					children: ["Desenvolvido para gerar resultados", /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Sun, { className: "h-4 w-4 text-primary" })]
 				})]
 			})]
@@ -25326,4 +25333,4 @@ var App = () => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(BrowserRouter, {
 var App_default = App;
 (0, import_client.createRoot)(document.getElementById("root")).render(/* @__PURE__ */ (0, import_jsx_runtime.jsx)(App_default, {}));
 
-//# sourceMappingURL=index-BPRPN9Ks.js.map
+//# sourceMappingURL=index-CkBLQ7iB.js.map
