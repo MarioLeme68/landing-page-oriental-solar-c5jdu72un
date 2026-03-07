@@ -25225,14 +25225,16 @@ function Footer() {
 									]
 								}) }),
 								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
-									href: "mailto:contato@orientalsolar.com.br",
+									href: "mailto:orientalsolarpb@gmail.com",
+									target: "_blank",
+									rel: "noopener noreferrer",
 									className: "flex items-center gap-3 hover:text-primary transition-colors group",
 									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 										className: "bg-slate-900 p-2 rounded-lg group-hover:bg-primary/10 transition-colors",
 										children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Mail, { className: "h-5 w-5 text-primary" })
 									}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 										className: "font-medium text-slate-300",
-										children: "contato@orientalsolar.com.br"
+										children: "orientalsolarpb@gmail.com"
 									})]
 								}) }),
 								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", {
@@ -25333,4 +25335,4 @@ var App = () => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(BrowserRouter, {
 var App_default = App;
 (0, import_client.createRoot)(document.getElementById("root")).render(/* @__PURE__ */ (0, import_jsx_runtime.jsx)(App_default, {}));
 
-//# sourceMappingURL=index-CkBLQ7iB.js.map
+//# sourceMappingURL=index-C1KPoVkL.js.map

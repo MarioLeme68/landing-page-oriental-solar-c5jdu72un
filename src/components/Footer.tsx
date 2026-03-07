@@ -40,13 +40,15 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href="mailto:contato@orientalsolar.com.br"
+                  href="mailto:orientalsolarpb@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex items-center gap-3 hover:text-primary transition-colors group"
                 >
                   <div className="bg-slate-900 p-2 rounded-lg group-hover:bg-primary/10 transition-colors">
                     <Mail className="h-5 w-5 text-primary" />
                   </div>
-                  <span className="font-medium text-slate-300">contato@orientalsolar.com.br</span>
+                  <span className="font-medium text-slate-300">orientalsolarpb@gmail.com</span>
                 </a>
               </li>
               <li className="flex items-center gap-3">
