@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react'
-import { Sun, Menu, X, PhoneCall } from 'lucide-react'
+import { Menu, X, PhoneCall } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { getWhatsAppLink } from '@/lib/constants'
+import logo from '@/assets/logo-2a822.jpeg'
 
 export function Header() {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -30,9 +31,11 @@ export function Header() {
     >
       <div className="container mx-auto px-4 flex items-center justify-between">
         <a href="#inicio" className="flex items-center gap-2 group">
-          <div className="bg-primary p-2 rounded-xl group-hover:bg-primary/90 transition-colors shadow-sm">
-            <Sun className="h-6 w-6 text-primary-foreground" />
-          </div>
+          <img
+            src={logo}
+            alt="Oriental Solar Logo"
+            className="h-10 w-10 rounded-full object-cover shadow-sm group-hover:scale-105 transition-transform"
+          />
           <span className="text-2xl font-extrabold tracking-tight text-violet-700">
             Oriental Solar
           </span>

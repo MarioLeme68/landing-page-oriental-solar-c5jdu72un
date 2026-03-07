@@ -27,10 +27,10 @@ export function Benefits() {
     <section id="vantagens" className="py-24 bg-white relative">
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-3xl md:text-4xl font-extrabold text-blue-950 mb-6">
+          <h2 className="text-3xl md:text-4xl font-extrabold text-blue-950 mb-6 text-balance mx-auto">
             A qualidade que sua família merece
           </h2>
-          <p className="text-lg text-slate-600 leading-relaxed">
+          <p className="text-lg text-slate-600 leading-relaxed text-balance mx-auto">
             Diferentemente do mercado padrão, que foca mais em preço do que na qualidade do
             resultado, nossa entrega visa a criar uma experiência boa para sua vida. Energia solar é
             um investimento de longo prazo, em que você valoriza do seu patrimônio e obtém conforto
@@ -49,7 +49,7 @@ export function Benefits() {
                   {benefit.icon}
                 </div>
                 <h3 className="text-xl font-bold text-blue-950 mb-3">{benefit.title}</h3>
-                <p className="text-slate-600 leading-relaxed">{benefit.description}</p>
+                <p className="text-slate-600 leading-relaxed text-balance">{benefit.description}</p>
               </CardContent>
             </Card>
           ))}
@@ -63,10 +63,10 @@ export function Benefits() {
                 <Home className="h-4 w-4" />
                 <span>Conforto em Primeiro Lugar</span>
               </div>
-              <h3 className="text-3xl md:text-4xl font-bold mb-6 leading-tight text-white">
+              <h3 className="text-3xl md:text-4xl font-bold mb-6 leading-tight text-white text-balance">
                 Ligue o ar condicionado sem medo da conta de luz.
               </h3>
-              <p className="text-slate-300 mb-8 text-lg leading-relaxed">
+              <p className="text-slate-300 mb-8 text-lg leading-relaxed text-balance">
                 Com um sistema fotovoltaico bem dimensionado, você blinda sua família contra as
                 bandeiras tarifárias e aproveita a sua casa do jeito que sempre quis.
               </p>
@@ -87,8 +87,8 @@ export function Benefits() {
             </div>
             <div className="h-full min-h-[400px] relative hidden lg:block">
               <img
-                src="https://img.usecurling.com/p/800/800?q=couple%20sitting%20sofa%20air%20conditioner&dpr=2"
-                alt="Casal confortável na sala com ar condicionado"
+                src="https://img.usecurling.com/p/800/800?q=couple%20sofa%20clean%20wall&dpr=2"
+                alt="Casal confortável na sala com ar condicionado em parede lisa"
                 className="absolute inset-0 w-full h-full object-cover rounded-l-[2.5rem] border-l border-slate-800"
               />
             </div>

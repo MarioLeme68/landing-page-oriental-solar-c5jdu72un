@@ -69,10 +69,10 @@ export function Simulator() {
           <div className="inline-flex items-center justify-center p-4 bg-white rounded-2xl shadow-sm border border-slate-100 mb-6">
             <Calculator className="h-10 w-10 text-primary" />
           </div>
-          <h2 className="text-3xl md:text-4xl font-extrabold text-blue-950 mb-6">
+          <h2 className="text-3xl md:text-4xl font-extrabold text-blue-950 mb-6 text-balance mx-auto">
             Simulador de Energia Solar
           </h2>
-          <p className="text-lg text-slate-600">
+          <p className="text-lg text-slate-600 text-balance mx-auto">
             Descubra o tamanho do sistema ideal para o seu consumo e projete sua economia
             financeira.
           </p>
@@ -83,10 +83,13 @@ export function Simulator() {
             <CardContent className="p-8 md:p-10 h-full flex flex-col justify-center">
               <form onSubmit={handleCalculate} className="space-y-8">
                 <div className="space-y-4">
-                  <Label htmlFor="bill" className="text-xl font-bold text-blue-950 block">
+                  <Label
+                    htmlFor="bill"
+                    className="text-xl font-bold text-blue-950 block text-balance"
+                  >
                     Valor médio da conta de luz
                   </Label>
-                  <p className="text-slate-500 text-sm mb-4">
+                  <p className="text-slate-500 text-sm mb-4 text-balance">
                     Insira o valor aproximado que você paga mensalmente para a concessionária.
                   </p>
                   <div className="relative">
@@ -108,7 +111,7 @@ export function Simulator() {
 
                 <Button
                   type="submit"
-                  className="w-full h-16 text-lg font-bold rounded-xl shadow-lg hover:shadow-xl transition-all bg-slate-900 text-white hover:bg-slate-800"
+                  className="w-full h-16 text-lg font-bold rounded-xl shadow-lg hover:shadow-xl transition-all bg-slate-900 text-white hover:bg-slate-800 text-balance"
                 >
                   Calcular Sistema e Economia
                 </Button>
@@ -120,8 +123,10 @@ export function Simulator() {
             {!result ? (
               <div className="h-full border-2 border-dashed border-slate-300 rounded-2xl flex flex-col items-center justify-center p-12 text-center text-slate-400 bg-white/40 backdrop-blur-sm min-h-[400px]">
                 <Sun className="h-16 w-16 mb-6 text-slate-300" />
-                <p className="text-xl font-semibold text-slate-500 mb-2">Aguardando valor</p>
-                <p className="text-base max-w-sm">
+                <p className="text-xl font-semibold text-slate-500 mb-2 text-balance">
+                  Aguardando valor
+                </p>
+                <p className="text-base max-w-sm text-balance mx-auto">
                   Preencha o valor da sua conta ao lado para visualizar a estimativa técnica do seu
                   sistema.
                 </p>
@@ -133,12 +138,12 @@ export function Simulator() {
                     <div className="bg-primary/20 p-3 rounded-xl border border-primary/30">
                       <TrendingUp className="h-6 w-6 text-primary" />
                     </div>
-                    <h3 className="text-2xl font-bold">Projeção de Viabilidade</h3>
+                    <h3 className="text-2xl font-bold text-balance">Projeção de Viabilidade</h3>
                   </div>
 
                   <div className="grid sm:grid-cols-2 gap-4 mb-8">
                     <div className="bg-slate-800/60 p-5 rounded-xl border border-slate-700/50">
-                      <p className="text-slate-400 text-sm font-medium mb-2 uppercase tracking-wider">
+                      <p className="text-slate-400 text-sm font-medium mb-2 uppercase tracking-wider text-balance">
                         Economia Mensal
                       </p>
                       <p className="text-3xl font-extrabold text-primary">
@@ -146,7 +151,7 @@ export function Simulator() {
                       </p>
                     </div>
                     <div className="bg-slate-800/60 p-5 rounded-xl border border-slate-700/50">
-                      <p className="text-slate-400 text-sm font-medium mb-2 uppercase tracking-wider">
+                      <p className="text-slate-400 text-sm font-medium mb-2 uppercase tracking-wider text-balance">
                         Economia em 1 Ano
                       </p>
                       <p className="text-3xl font-extrabold text-white">
@@ -156,7 +161,7 @@ export function Simulator() {
                   </div>
 
                   <div className="bg-slate-800/80 rounded-xl p-6 border border-slate-700 mb-8">
-                    <h4 className="text-sm font-bold text-slate-300 uppercase tracking-wider mb-5">
+                    <h4 className="text-sm font-bold text-slate-300 uppercase tracking-wider mb-5 text-balance">
                       Dimensionamento Estimado
                     </h4>
                     <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
@@ -202,7 +207,7 @@ export function Simulator() {
 
                 <Button
                   asChild
-                  className="w-full bg-[#25D366] hover:bg-[#20bd5a] text-white font-bold h-16 text-lg rounded-xl group shadow-lg shadow-[#25D366]/20 mt-auto"
+                  className="w-full bg-[#25D366] hover:bg-[#20bd5a] text-white font-bold h-16 text-lg rounded-xl group shadow-lg shadow-[#25D366]/20 mt-auto text-balance"
                 >
                   <a
                     href={getWhatsAppLink(resultMessage)}
@@ -213,7 +218,7 @@ export function Simulator() {
                     <ArrowRight className="ml-2 h-6 w-6 group-hover:translate-x-1 transition-transform" />
                   </a>
                 </Button>
-                <p className="text-center text-xs text-slate-500 mt-5">
+                <p className="text-center text-xs text-slate-500 mt-5 text-balance mx-auto">
                   * Resultados baseados em médias de consumo e irradiação solar. A análise técnica
                   definirá o projeto final.
                 </p>

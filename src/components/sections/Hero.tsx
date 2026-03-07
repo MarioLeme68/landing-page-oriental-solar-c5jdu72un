@@ -16,7 +16,7 @@ export function Hero() {
       <div className="container mx-auto px-4 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="max-w-2xl opacity-0 animate-fade-in-up">
-            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-primary/10 text-primary font-semibold text-sm mb-6 border border-primary/20 shadow-sm">
+            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-yellow-100 text-blue-950 font-semibold text-sm mb-6 border border-yellow-200 shadow-sm">
               <Sun className="h-4 w-4" />
               <span>Conforto + Economia = Qualidade de Vida</span>
             </div>
@@ -26,7 +26,7 @@ export function Hero() {
               sua família.
             </h1>
 
-            <p className="text-lg md:text-xl text-slate-600 mb-8 leading-relaxed">
+            <p className="text-lg md:text-xl text-slate-600 mb-8 leading-relaxed text-balance">
               Ligue o ar condicionado sem medo da conta no fim do mês. A Oriental Solar entrega uma
               solução individualizada para você reduzir muito a sua conta de luz, economizando mês a
               mês, e valorizar seu imóvel com total segurança.
@@ -60,12 +60,12 @@ export function Hero() {
           <div className="relative opacity-0 animate-fade-in-up delay-200 lg:ml-auto flex flex-col items-center lg:items-end">
             <div className="relative rounded-[2rem] overflow-hidden shadow-2xl aspect-[4/3] w-full max-w-lg border-4 border-white">
               <img
-                src="https://img.usecurling.com/p/800/600?q=brazilian%20house%20clay%20roof%20sunny%20day&dpr=2"
-                alt="Casa estilo brasileira com telhado de cerâmica e energia solar"
+                src="https://img.usecurling.com/p/800/600?q=brazilian%20house%20solar%20garden&dpr=2"
+                alt="Residência brasileira com telhado de cerâmica e painéis solares em dia ensolarado"
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-slate-900/90 via-slate-900/30 to-transparent flex flex-col justify-end p-8">
-                <p className="text-white font-medium text-lg lg:text-xl leading-snug">
+                <p className="text-white font-medium text-lg lg:text-xl leading-snug text-balance">
                   Pare de pagar aluguel de energia e comece a gerar seu próprio conforto.
                 </p>
                 <div className="w-12 h-1.5 bg-primary mt-4 rounded-full" />

@@ -24001,7 +24001,7 @@ function Hero() {
 					className: "max-w-2xl opacity-0 animate-fade-in-up",
 					children: [
 						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-							className: "inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-primary/10 text-primary font-semibold text-sm mb-6 border border-primary/20 shadow-sm",
+							className: "inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-yellow-100 text-blue-950 font-semibold text-sm mb-6 border border-yellow-200 shadow-sm",
 							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Sun, { className: "h-4 w-4" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Conforto + Economia = Qualidade de Vida" })]
 						}),
 						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("h1", {
@@ -24016,7 +24016,7 @@ function Hero() {
 							]
 						}),
 						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-							className: "text-lg md:text-xl text-slate-600 mb-8 leading-relaxed",
+							className: "text-lg md:text-xl text-slate-600 mb-8 leading-relaxed text-balance",
 							children: "Ligue o ar condicionado sem medo da conta no fim do mês. A Oriental Solar entrega uma solução individualizada para você reduzir muito a sua conta de luz, economizando mês a mês, e valorizar seu imóvel com total segurança."
 						}),
 						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
@@ -24047,13 +24047,13 @@ function Hero() {
 					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 						className: "relative rounded-[2rem] overflow-hidden shadow-2xl aspect-[4/3] w-full max-w-lg border-4 border-white",
 						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
-							src: "https://img.usecurling.com/p/800/600?q=brazilian%20house%20clay%20roof%20sunny%20day&dpr=2",
-							alt: "Casa estilo brasileira com telhado de cerâmica e energia solar",
+							src: "https://img.usecurling.com/p/800/600?q=brazilian%20house%20solar%20garden&dpr=2",
+							alt: "Residência brasileira com telhado de cerâmica e painéis solares em dia ensolarado",
 							className: "w-full h-full object-cover"
 						}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 							className: "absolute inset-0 bg-gradient-to-t from-slate-900/90 via-slate-900/30 to-transparent flex flex-col justify-end p-8",
 							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-								className: "text-white font-medium text-lg lg:text-xl leading-snug",
+								className: "text-white font-medium text-lg lg:text-xl leading-snug text-balance",
 								children: "Pare de pagar aluguel de energia e comece a gerar seu próprio conforto."
 							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "w-12 h-1.5 bg-primary mt-4 rounded-full" })]
 						})]
@@ -24138,10 +24138,10 @@ function Benefits() {
 				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 					className: "text-center max-w-3xl mx-auto mb-16",
 					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
-						className: "text-3xl md:text-4xl font-extrabold text-blue-950 mb-6",
+						className: "text-3xl md:text-4xl font-extrabold text-blue-950 mb-6 text-balance mx-auto",
 						children: "A qualidade que sua família merece"
 					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-						className: "text-lg text-slate-600 leading-relaxed",
+						className: "text-lg text-slate-600 leading-relaxed text-balance mx-auto",
 						children: "Diferentemente do mercado padrão, que foca mais em preço do que na qualidade do resultado, nossa entrega visa a criar uma experiência boa para sua vida. Energia solar é um investimento de longo prazo, em que você valoriza do seu patrimônio e obtém conforto e tranquilidade."
 					})]
 				}),
@@ -24161,7 +24161,7 @@ function Benefits() {
 									children: benefit.title
 								}),
 								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-									className: "text-slate-600 leading-relaxed",
+									className: "text-slate-600 leading-relaxed text-balance",
 									children: benefit.description
 								})
 							]
@@ -24180,11 +24180,11 @@ function Benefits() {
 									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(House, { className: "h-4 w-4" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Conforto em Primeiro Lugar" })]
 								}),
 								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
-									className: "text-3xl md:text-4xl font-bold mb-6 leading-tight text-white",
+									className: "text-3xl md:text-4xl font-bold mb-6 leading-tight text-white text-balance",
 									children: "Ligue o ar condicionado sem medo da conta de luz."
 								}),
 								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-									className: "text-slate-300 mb-8 text-lg leading-relaxed",
+									className: "text-slate-300 mb-8 text-lg leading-relaxed text-balance",
 									children: "Com um sistema fotovoltaico bem dimensionado, você blinda sua família contra as bandeiras tarifárias e aproveita a sua casa do jeito que sempre quis."
 								}),
 								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("ul", {
@@ -24208,8 +24208,8 @@ function Benefits() {
 						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 							className: "h-full min-h-[400px] relative hidden lg:block",
 							children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
-								src: "https://img.usecurling.com/p/800/800?q=couple%20sitting%20sofa%20air%20conditioner&dpr=2",
-								alt: "Casal confortável na sala com ar condicionado",
+								src: "https://img.usecurling.com/p/800/800?q=couple%20sofa%20clean%20wall&dpr=2",
+								alt: "Casal confortável na sala com ar condicionado em parede lisa",
 								className: "absolute inset-0 w-full h-full object-cover rounded-l-[2.5rem] border-l border-slate-800"
 							})
 						})]
@@ -24331,11 +24331,11 @@ function Simulator() {
 						children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Calculator, { className: "h-10 w-10 text-primary" })
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
-						className: "text-3xl md:text-4xl font-extrabold text-blue-950 mb-6",
+						className: "text-3xl md:text-4xl font-extrabold text-blue-950 mb-6 text-balance mx-auto",
 						children: "Simulador de Energia Solar"
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-						className: "text-lg text-slate-600",
+						className: "text-lg text-slate-600 text-balance mx-auto",
 						children: "Descubra o tamanho do sistema ideal para o seu consumo e projete sua economia financeira."
 					})
 				]
@@ -24353,11 +24353,11 @@ function Simulator() {
 								children: [
 									/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Label, {
 										htmlFor: "bill",
-										className: "text-xl font-bold text-blue-950 block",
+										className: "text-xl font-bold text-blue-950 block text-balance",
 										children: "Valor médio da conta de luz"
 									}),
 									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-										className: "text-slate-500 text-sm mb-4",
+										className: "text-slate-500 text-sm mb-4 text-balance",
 										children: "Insira o valor aproximado que você paga mensalmente para a concessionária."
 									}),
 									/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
@@ -24379,7 +24379,7 @@ function Simulator() {
 								]
 							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
 								type: "submit",
-								className: "w-full h-16 text-lg font-bold rounded-xl shadow-lg hover:shadow-xl transition-all bg-slate-900 text-white hover:bg-slate-800",
+								className: "w-full h-16 text-lg font-bold rounded-xl shadow-lg hover:shadow-xl transition-all bg-slate-900 text-white hover:bg-slate-800 text-balance",
 								children: "Calcular Sistema e Economia"
 							})]
 						})
@@ -24391,11 +24391,11 @@ function Simulator() {
 						children: [
 							/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Sun, { className: "h-16 w-16 mb-6 text-slate-300" }),
 							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-								className: "text-xl font-semibold text-slate-500 mb-2",
+								className: "text-xl font-semibold text-slate-500 mb-2 text-balance",
 								children: "Aguardando valor"
 							}),
 							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-								className: "text-base max-w-sm",
+								className: "text-base max-w-sm text-balance mx-auto",
 								children: "Preencha o valor da sua conta ao lado para visualizar a estimativa técnica do seu sistema."
 							})
 						]
@@ -24411,7 +24411,7 @@ function Simulator() {
 											className: "bg-primary/20 p-3 rounded-xl border border-primary/30",
 											children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(TrendingUp, { className: "h-6 w-6 text-primary" })
 										}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
-											className: "text-2xl font-bold",
+											className: "text-2xl font-bold text-balance",
 											children: "Projeção de Viabilidade"
 										})]
 									}),
@@ -24420,7 +24420,7 @@ function Simulator() {
 										children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 											className: "bg-slate-800/60 p-5 rounded-xl border border-slate-700/50",
 											children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-												className: "text-slate-400 text-sm font-medium mb-2 uppercase tracking-wider",
+												className: "text-slate-400 text-sm font-medium mb-2 uppercase tracking-wider text-balance",
 												children: "Economia Mensal"
 											}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 												className: "text-3xl font-extrabold text-primary",
@@ -24429,7 +24429,7 @@ function Simulator() {
 										}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 											className: "bg-slate-800/60 p-5 rounded-xl border border-slate-700/50",
 											children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-												className: "text-slate-400 text-sm font-medium mb-2 uppercase tracking-wider",
+												className: "text-slate-400 text-sm font-medium mb-2 uppercase tracking-wider text-balance",
 												children: "Economia em 1 Ano"
 											}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 												className: "text-3xl font-extrabold text-white",
@@ -24440,7 +24440,7 @@ function Simulator() {
 									/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 										className: "bg-slate-800/80 rounded-xl p-6 border border-slate-700 mb-8",
 										children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h4", {
-											className: "text-sm font-bold text-slate-300 uppercase tracking-wider mb-5",
+											className: "text-sm font-bold text-slate-300 uppercase tracking-wider mb-5 text-balance",
 											children: "Dimensionamento Estimado"
 										}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 											className: "grid grid-cols-1 sm:grid-cols-3 gap-6",
@@ -24515,7 +24515,7 @@ function Simulator() {
 							}),
 							/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
 								asChild: true,
-								className: "w-full bg-[#25D366] hover:bg-[#20bd5a] text-white font-bold h-16 text-lg rounded-xl group shadow-lg shadow-[#25D366]/20 mt-auto",
+								className: "w-full bg-[#25D366] hover:bg-[#20bd5a] text-white font-bold h-16 text-lg rounded-xl group shadow-lg shadow-[#25D366]/20 mt-auto text-balance",
 								children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
 									href: getWhatsAppLink(resultMessage),
 									target: "_blank",
@@ -24524,7 +24524,7 @@ function Simulator() {
 								})
 							}),
 							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-								className: "text-center text-xs text-slate-500 mt-5",
+								className: "text-center text-xs text-slate-500 mt-5 text-balance mx-auto",
 								children: "* Resultados baseados em médias de consumo e irradiação solar. A análise técnica definirá o projeto final."
 							})
 						]
@@ -24924,7 +24924,7 @@ var faqs = [
 	},
 	{
 		question: "Quanto tempo dura o sistema e qual a garantia?",
-		answer: "A vida útil dos painéis solares é superior a 25 anos. Trabalhamos com marcas globais e fornecedor nacionalmente reconhecido, repassando as garantias oficiais de fábrica (geralmente de 10 a 12 anos contra defeitos de fabricação para os painéis, e de 5 a 10 anos para os inversores), garantindo total segurança no seu investimento."
+		answer: "A vida útil dos painéis solares é superior a 25 anos. Trabalhamos com marcas globais e fornecedor nacionalmente reconhecido, repassando as garantias oficiais de fábrica (geralmente de 10 a 12 anos contra defeitos de fabricação para os painéis, e de 5 a 20 anos para os inversores), garantindo total segurança no seu investimento."
 	},
 	{
 		question: "Meu telhado suporta o peso das placas?",
@@ -24948,10 +24948,10 @@ function FAQ() {
 			children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 				className: "text-center mb-16",
 				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
-					className: "text-3xl md:text-4xl font-extrabold text-blue-950 mb-6",
+					className: "text-3xl md:text-4xl font-extrabold text-blue-950 mb-6 text-balance",
 					children: "Dúvidas Frequentes"
 				}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-					className: "text-lg text-slate-600",
+					className: "text-lg text-slate-600 text-balance mx-auto",
 					children: "Respostas claras e transparentes para você investir no conforto da sua casa com total segurança."
 				})]
 			}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Accordion, {
@@ -24962,7 +24962,7 @@ function FAQ() {
 					value: `item-${index$1}`,
 					className: "bg-white border border-slate-200 shadow-sm rounded-xl px-6 data-[state=open]:border-primary/50 data-[state=open]:shadow-md transition-all",
 					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(AccordionTrigger, {
-						className: "text-left font-bold text-blue-950 text-lg py-6 hover:no-underline hover:text-primary transition-colors",
+						className: "text-left font-bold text-blue-950 text-lg py-6 hover:no-underline hover:text-primary transition-colors text-balance",
 						children: faq.question
 					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(AccordionContent, {
 						className: "text-slate-600 text-base pb-6 leading-relaxed",
@@ -24993,12 +24993,12 @@ function CTA() {
 						children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Sun, { className: "h-8 w-8 text-primary" })
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
-						className: "text-4xl md:text-5xl font-extrabold text-white mb-6 tracking-tight",
+						className: "text-4xl md:text-5xl font-extrabold text-white mb-6 tracking-tight text-balance",
 						children: "Pronto para ter mais conforto pagando menos?"
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-						className: "text-xl text-slate-300 mb-10 leading-relaxed",
-						children: "Fale conosco agora mesmo. Faremos uma análise gratuita da sua viabilidade técnica e apresentaremos o projeto ideal para sua casa."
+						className: "text-xl text-slate-300 mb-10 leading-relaxed text-balance mx-auto",
+						children: "Fale conosco agora mesmo. Faremos uma análise gratuita da viabilidade técnica e apresentaremos o projeto ideal para sua casa."
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 						className: "flex flex-col items-center gap-6",
@@ -25069,6 +25069,7 @@ var NotFound = () => {
 	});
 };
 var NotFound_default = NotFound;
+var logo_2a822_default = "/assets/logo-2a822-BjaUfeTF.jpeg";
 function Header() {
 	const [isScrolled, setIsScrolled] = (0, import_react.useState)(false);
 	const [mobileMenuOpen, setMobileMenuOpen] = (0, import_react.useState)(false);
@@ -25105,9 +25106,10 @@ function Header() {
 				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("a", {
 					href: "#inicio",
 					className: "flex items-center gap-2 group",
-					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-						className: "bg-primary p-2 rounded-xl group-hover:bg-primary/90 transition-colors shadow-sm",
-						children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Sun, { className: "h-6 w-6 text-primary-foreground" })
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
+						src: logo_2a822_default,
+						alt: "Oriental Solar Logo",
+						className: "h-10 w-10 rounded-full object-cover shadow-sm group-hover:scale-105 transition-transform"
 					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 						className: "text-2xl font-extrabold tracking-tight text-violet-700",
 						children: "Oriental Solar"
@@ -25313,4 +25315,4 @@ var App = () => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(BrowserRouter, {
 var App_default = App;
 (0, import_client.createRoot)(document.getElementById("root")).render(/* @__PURE__ */ (0, import_jsx_runtime.jsx)(App_default, {}));
 
-//# sourceMappingURL=index-B54exDVc.js.map
+//# sourceMappingURL=index-Cc29jnCn.js.map

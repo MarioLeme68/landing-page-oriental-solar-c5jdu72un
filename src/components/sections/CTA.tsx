@@ -19,11 +19,11 @@ export function CTA() {
           <div className="inline-flex items-center justify-center p-3 bg-primary/20 rounded-2xl mb-6">
             <Sun className="h-8 w-8 text-primary" />
           </div>
-          <h2 className="text-4xl md:text-5xl font-extrabold text-white mb-6 tracking-tight">
+          <h2 className="text-4xl md:text-5xl font-extrabold text-white mb-6 tracking-tight text-balance">
             Pronto para ter mais conforto pagando menos?
           </h2>
-          <p className="text-xl text-slate-300 mb-10 leading-relaxed">
-            Fale conosco agora mesmo. Faremos uma análise gratuita da sua viabilidade técnica e
+          <p className="text-xl text-slate-300 mb-10 leading-relaxed text-balance mx-auto">
+            Fale conosco agora mesmo. Faremos uma análise gratuita da viabilidade técnica e
             apresentaremos o projeto ideal para sua casa.
           </p>
 

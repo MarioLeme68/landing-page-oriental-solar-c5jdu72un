@@ -14,7 +14,7 @@ const faqs = [
   {
     question: 'Quanto tempo dura o sistema e qual a garantia?',
     answer:
-      'A vida útil dos painéis solares é superior a 25 anos. Trabalhamos com marcas globais e fornecedor nacionalmente reconhecido, repassando as garantias oficiais de fábrica (geralmente de 10 a 12 anos contra defeitos de fabricação para os painéis, e de 5 a 10 anos para os inversores), garantindo total segurança no seu investimento.',
+      'A vida útil dos painéis solares é superior a 25 anos. Trabalhamos com marcas globais e fornecedor nacionalmente reconhecido, repassando as garantias oficiais de fábrica (geralmente de 10 a 12 anos contra defeitos de fabricação para os painéis, e de 5 a 20 anos para os inversores), garantindo total segurança no seu investimento.',
   },
   {
     question: 'Meu telhado suporta o peso das placas?',
@@ -38,10 +38,10 @@ export function FAQ() {
     <section id="faq" className="py-24 bg-slate-50">
       <div className="container mx-auto px-4 max-w-4xl">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-extrabold text-blue-950 mb-6">
+          <h2 className="text-3xl md:text-4xl font-extrabold text-blue-950 mb-6 text-balance">
             Dúvidas Frequentes
           </h2>
-          <p className="text-lg text-slate-600">
+          <p className="text-lg text-slate-600 text-balance mx-auto">
             Respostas claras e transparentes para você investir no conforto da sua casa com total
             segurança.
           </p>
@@ -54,7 +54,7 @@ export function FAQ() {
               value={`item-${index}`}
               className="bg-white border border-slate-200 shadow-sm rounded-xl px-6 data-[state=open]:border-primary/50 data-[state=open]:shadow-md transition-all"
             >
-              <AccordionTrigger className="text-left font-bold text-blue-950 text-lg py-6 hover:no-underline hover:text-primary transition-colors">
+              <AccordionTrigger className="text-left font-bold text-blue-950 text-lg py-6 hover:no-underline hover:text-primary transition-colors text-balance">
                 {faq.question}
               </AccordionTrigger>
               <AccordionContent className="text-slate-600 text-base pb-6 leading-relaxed">
