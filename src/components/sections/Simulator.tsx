@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Calculator, TrendingUp, Sun, ArrowRight, Zap, PanelTop, Maximize } from 'lucide-react'
+import { Calculator, TrendingUp, Sun, Zap, PanelTop, Maximize, MessageCircle } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
 import { Input } from '@/components/ui/input'
@@ -214,8 +214,8 @@ export function Simulator() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Receber Orçamento Exato
-                    <ArrowRight className="ml-2 h-6 w-6 group-hover:translate-x-1 transition-transform" />
+                    <MessageCircle className="mr-2 h-6 w-6 group-hover:scale-110 transition-transform" />
+                    Solicitar Orçamento no WhatsApp
                   </a>
                 </Button>
                 <p className="text-center text-xs text-slate-500 mt-5 text-balance mx-auto">

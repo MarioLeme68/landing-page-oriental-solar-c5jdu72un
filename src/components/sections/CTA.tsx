@@ -35,7 +35,7 @@ export function CTA() {
             >
               <a href={getWhatsAppLink()} target="_blank" rel="noopener noreferrer">
                 <MessageCircle className="mr-2 h-6 w-6 group-hover:animate-bounce" />
-                Falar com a gente no WhatsApp
+                Solicitar Orçamento no WhatsApp
               </a>
             </Button>
 

@@ -24531,7 +24531,7 @@ function Simulator() {
 									href: getWhatsAppLink(resultMessage),
 									target: "_blank",
 									rel: "noopener noreferrer",
-									children: ["Receber Orçamento Exato", /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ArrowRight, { className: "ml-2 h-6 w-6 group-hover:translate-x-1 transition-transform" })]
+									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(MessageCircle, { className: "mr-2 h-6 w-6 group-hover:scale-110 transition-transform" }), "Solicitar Orçamento no WhatsApp"]
 								})
 							}),
 							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
@@ -25021,7 +25021,7 @@ function CTA() {
 								href: getWhatsAppLink(),
 								target: "_blank",
 								rel: "noopener noreferrer",
-								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(MessageCircle, { className: "mr-2 h-6 w-6 group-hover:animate-bounce" }), "Falar com a gente no WhatsApp"]
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(MessageCircle, { className: "mr-2 h-6 w-6 group-hover:animate-bounce" }), "Solicitar Orçamento no WhatsApp"]
 							})
 						}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 							className: "flex items-center justify-center gap-6 text-sm font-medium text-slate-400",
@@ -25335,4 +25335,4 @@ var App = () => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(BrowserRouter, {
 var App_default = App;
 (0, import_client.createRoot)(document.getElementById("root")).render(/* @__PURE__ */ (0, import_jsx_runtime.jsx)(App_default, {}));
 
-//# sourceMappingURL=index-C1KPoVkL.js.map
+//# sourceMappingURL=index-pwESzQS5.js.map
