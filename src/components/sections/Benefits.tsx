@@ -28,7 +28,7 @@ export function Benefits() {
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-4xl font-extrabold text-blue-950 mb-6 text-balance mx-auto">
-            A qualidade que sua família merece
+            A qualidade que sua família ou seu negócio merecem
           </h2>
           <p className="text-lg text-slate-600 leading-relaxed text-balance mx-auto">
             Diferentemente do mercado padrão, que foca mais em preço do que na qualidade do
