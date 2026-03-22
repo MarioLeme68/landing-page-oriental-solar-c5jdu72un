@@ -22,11 +22,20 @@ export function Hero() {
               <span>Conforto + Economia = Qualidade de Vida</span>
             </div>
 
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-blue-950 leading-[1.2] lg:leading-[1.1] mb-6 tracking-tight text-center lg:text-left w-full text-balance">
-              Transforme a luz do Sol
-              <br className="hidden lg:block" />
-              <span className="lg:hidden"> </span>
-              em <span className="text-primary">conforto real</span> para você
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-blue-950 leading-[1.2] lg:leading-[1.1] mb-6 tracking-tight text-center lg:text-left w-full">
+              <span className="block lg:hidden">
+                Transforme a<br />
+                luz do Sol em
+                <br />
+                <span className="text-primary">conforto real</span>
+                <br />
+                para você
+              </span>
+              <span className="hidden lg:block">
+                Transforme a luz do Sol
+                <br />
+                em <span className="text-primary">conforto real</span> para você
+              </span>
             </h1>
 
             <p className="text-lg md:text-xl text-slate-600 mb-8 leading-relaxed text-balance text-center lg:text-left">
