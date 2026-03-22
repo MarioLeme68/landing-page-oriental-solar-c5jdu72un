@@ -26,7 +26,7 @@ export function Hero() {
               <span className="block sm:inline">Transforme a</span>{' '}
               <span className="block sm:inline">luz do sol em</span>{' '}
               <span className="block sm:inline text-primary">conforto real</span>{' '}
-              <span className="block sm:inline">para você.</span>
+              <span className="block sm:inline">para você</span>
             </h1>
 
             <p className="text-lg md:text-xl text-slate-600 mb-8 leading-relaxed text-balance text-center sm:text-left mx-auto sm:mx-0">
@@ -72,9 +72,9 @@ export function Hero() {
           </div>
 
           <div className="relative opacity-0 animate-fade-in-up delay-200 lg:ml-auto flex flex-col items-center lg:items-end">
-            <div className="relative rounded-[2rem] overflow-hidden shadow-2xl aspect-[4/3] w-full max-w-lg border-4 border-white">
+            <div className="relative rounded-[2rem] overflow-hidden shadow-2xl aspect-[4/3] w-full max-w-lg border-4 border-white bg-slate-100">
               <img
-                src="https://img.usecurling.com/p/800/600?q=brazilian%20house%20solar%20garden&dpr=2"
+                src="https://img.usecurling.com/p/800/600?q=brazilian%20house%20solar%20garden&dpr=2&seed=123"
                 alt="Residência brasileira com telhado de cerâmica e painéis solares em dia ensolarado"
                 className="w-full h-full object-cover"
               />

@@ -7,7 +7,7 @@ export function CTA() {
     <section className="py-24 relative overflow-hidden bg-slate-900">
       <div className="absolute inset-0 z-0">
         <img
-          src="https://img.usecurling.com/p/1200/400?q=solar%20panels%20sunset&dpr=2"
+          src="https://img.usecurling.com/p/1200/400?q=solar%20panels%20sunset&dpr=2&seed=123"
           alt="Painéis Solares no Pôr do Sol"
           className="w-full h-full object-cover opacity-30 mix-blend-overlay"
         />
