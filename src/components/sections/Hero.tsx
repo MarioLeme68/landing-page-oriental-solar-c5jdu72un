@@ -16,27 +16,26 @@ export function Hero() {
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div className="max-w-2xl opacity-0 animate-fade-in-up flex flex-col items-start">
-            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-yellow-100 text-blue-950 font-semibold text-sm mb-6 border border-yellow-200 shadow-sm mx-auto sm:mx-0">
+          <div className="max-w-2xl opacity-0 animate-fade-in-up flex flex-col items-center lg:items-start mx-auto lg:mx-0">
+            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-yellow-100 text-blue-950 font-semibold text-sm mb-6 border border-yellow-200 shadow-sm">
               <Sun className="h-4 w-4" />
               <span>Conforto + Economia = Qualidade de Vida</span>
             </div>
 
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-blue-950 leading-[1.2] sm:leading-[1.1] mb-6 tracking-tight text-center sm:text-left mx-auto sm:mx-0 w-full">
-              <span className="lg:block lg:whitespace-nowrap">Transforme a luz do Sol</span>
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-blue-950 leading-[1.2] lg:leading-[1.1] mb-6 tracking-tight text-center lg:text-left w-full text-balance">
+              Transforme a luz do Sol
+              <br className="hidden lg:block" />
               <span className="lg:hidden"> </span>
-              <span className="lg:block lg:whitespace-nowrap">
-                em <span className="text-primary">conforto real</span> para você
-              </span>
+              em <span className="text-primary">conforto real</span> para você
             </h1>
 
-            <p className="text-lg md:text-xl text-slate-600 mb-8 leading-relaxed text-balance text-center sm:text-left mx-auto sm:mx-0">
+            <p className="text-lg md:text-xl text-slate-600 mb-8 leading-relaxed text-balance text-center lg:text-left">
               Ligue o ar condicionado sem medo da conta no fim do mês. A Oriental Solar entrega uma
               solução individualizada para você reduzir muito a sua conta de luz, economizando mês a
               mês, e valorizar seu imóvel com total segurança.
             </p>
 
-            <div className="flex flex-col w-full sm:w-auto sm:flex-row gap-4 mb-10 mx-auto sm:mx-0">
+            <div className="flex flex-col w-full sm:w-auto sm:flex-row gap-4 mb-10">
               <Button
                 size="lg"
                 asChild
@@ -60,7 +59,7 @@ export function Hero() {
               </Button>
             </div>
 
-            <div className="flex flex-wrap items-center justify-center sm:justify-start gap-4 sm:gap-6 text-sm font-medium text-slate-600 mx-auto sm:mx-0">
+            <div className="flex flex-wrap items-center justify-center lg:justify-start gap-4 sm:gap-6 text-sm font-medium text-slate-600">
               <div className="flex items-center gap-2 bg-white/70 backdrop-blur px-4 py-2.5 rounded-xl border border-slate-200 shadow-sm">
                 <ShieldCheck className="h-5 w-5 text-green-500" />
                 <span>Instalação Premium</span>
@@ -72,23 +71,23 @@ export function Hero() {
             </div>
           </div>
 
-          <div className="relative opacity-0 animate-fade-in-up delay-200 lg:ml-auto flex flex-col items-center lg:items-end">
+          <div className="relative opacity-0 animate-fade-in-up delay-200 flex flex-col items-center lg:items-end w-full">
             <div className="relative rounded-[2rem] overflow-hidden shadow-2xl aspect-[4/3] w-full max-w-lg border-4 border-white bg-slate-100">
               <img
                 src="https://img.usecurling.com/p/800/600?q=brazilian%20house%20solar%20garden&dpr=2&seed=123"
                 alt="Residência brasileira com telhado de cerâmica e painéis solares em dia ensolarado"
                 className="w-full h-full object-cover"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-slate-900/90 via-slate-900/30 to-transparent flex flex-col justify-end p-8 text-center sm:text-left">
+              <div className="absolute inset-0 bg-gradient-to-t from-slate-900/90 via-slate-900/30 to-transparent flex flex-col justify-end p-8 text-center lg:text-left">
                 <p className="text-white font-medium text-lg lg:text-xl leading-snug text-balance">
                   Pare de pagar aluguel de energia e comece a gerar seu próprio conforto.
                 </p>
-                <div className="w-12 h-1.5 bg-primary mt-4 rounded-full mx-auto sm:mx-0" />
+                <div className="w-12 h-1.5 bg-primary mt-4 rounded-full mx-auto lg:mx-0" />
               </div>
             </div>
 
             <div className="mt-6 bg-white p-5 rounded-2xl shadow-xl border border-slate-100 flex items-center gap-4 w-full max-w-sm">
-              <div className="bg-green-100 p-3 rounded-xl">
+              <div className="bg-green-100 p-3 rounded-xl shrink-0">
                 <TrendingDown className="w-6 h-6 text-green-600" />
               </div>
               <div>
