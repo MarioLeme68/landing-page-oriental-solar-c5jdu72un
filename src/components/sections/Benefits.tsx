@@ -57,41 +57,37 @@ export function Benefits() {
 
         <div className="bg-slate-900 rounded-[2.5rem] overflow-hidden shadow-2xl relative">
           <div className="absolute top-0 right-0 w-1/2 h-full bg-primary/10 blur-[100px] pointer-events-none" />
-          <div className="grid lg:grid-cols-2 items-center relative z-10">
-            <div className="p-10 md:p-16 text-white">
-              <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/10 text-primary font-medium text-sm mb-8 border border-white/10">
-                <Home className="h-4 w-4" />
-                <span>Conforto em Primeiro Lugar</span>
-              </div>
-              <h3 className="text-3xl md:text-4xl font-bold mb-6 leading-tight text-white text-balance">
-                Ligue o ar condicionado sem medo da conta de luz.
-              </h3>
-              <p className="text-slate-300 mb-8 text-lg leading-relaxed text-balance">
-                Com um sistema fotovoltaico bem dimensionado, você blinda sua família contra as
-                bandeiras tarifárias e aproveita a sua casa do jeito que sempre quis.
-              </p>
-              <ul className="space-y-4">
-                {[
-                  'Valorização imediata do seu imóvel',
-                  'Proteção contra a inflação energética',
-                  'Retorno financeiro em 3 a 5 anos',
-                ].map((item, i) => (
-                  <li key={i} className="flex items-center gap-4">
-                    <div className="bg-primary/20 p-1.5 rounded-full border border-primary/30">
-                      <ChevronRight className="h-4 w-4 text-primary" />
-                    </div>
-                    <span className="font-medium text-slate-200">{item}</span>
-                  </li>
-                ))}
-              </ul>
+          <div className="absolute bottom-0 left-0 w-1/2 h-full bg-blue-500/10 blur-[100px] pointer-events-none" />
+
+          <div className="relative z-10 p-10 md:p-16 flex flex-col items-center text-center max-w-4xl mx-auto">
+            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/10 text-primary font-medium text-sm mb-8 border border-white/10">
+              <Home className="h-4 w-4" />
+              <span>Conforto em Primeiro Lugar</span>
             </div>
-            <div className="h-full min-h-[400px] relative hidden lg:block">
-              <img
-                src="https://img.usecurling.com/p/800/800?q=couple%20sofa%20clean%20wall&dpr=2"
-                alt="Casal confortável na sala com ar condicionado em parede lisa"
-                className="absolute inset-0 w-full h-full object-cover rounded-l-[2.5rem] border-l border-slate-800"
-              />
-            </div>
+
+            <h3 className="text-3xl md:text-4xl font-bold mb-6 leading-tight text-white text-balance">
+              Ligue o ar condicionado sem medo da conta de luz.
+            </h3>
+
+            <p className="text-slate-300 mb-10 text-lg leading-relaxed text-balance">
+              Com um sistema fotovoltaico bem dimensionado, você blinda sua família contra as
+              bandeiras tarifárias e aproveita a sua casa do jeito que sempre quis.
+            </p>
+
+            <ul className="flex flex-col sm:flex-row flex-wrap justify-center gap-4 sm:gap-8">
+              {[
+                'Valorização imediata do seu imóvel',
+                'Proteção contra a inflação energética',
+                'Retorno financeiro em 3 a 5 anos',
+              ].map((item, i) => (
+                <li key={i} className="flex items-center gap-3 text-left">
+                  <div className="bg-primary/20 p-1.5 rounded-full border border-primary/30 shrink-0">
+                    <ChevronRight className="h-4 w-4 text-primary" />
+                  </div>
+                  <span className="font-medium text-slate-200">{item}</span>
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
       </div>

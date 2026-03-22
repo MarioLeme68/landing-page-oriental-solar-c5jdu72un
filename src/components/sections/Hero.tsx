@@ -24,7 +24,7 @@ export function Hero() {
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-blue-950 leading-[1.1] mb-6 tracking-tight">
               Transforme a luz do sol em <span className="text-primary">conforto real</span> para
-              sua família.
+              você.
             </h1>
 
             <p className="text-lg md:text-xl text-slate-600 mb-8 leading-relaxed text-balance">
