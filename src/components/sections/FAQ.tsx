@@ -29,7 +29,7 @@ const faqs = [
   {
     question: 'Eu ainda vou precisar pagar conta de luz?',
     answer:
-      'Sim, haverá uma redução drástica, mas a conta não é zerada. Você deixará de pagar a maior parte do seu consumo, contudo continuará pagando a taxa mínima (custo de disponibilidade da rede) para a concessionária (Light/Enel), a taxa de iluminação pública e eventuais encargos e impostos previstos na legislação vigente sobre a energia injetada. Ainda assim, a sua economia pode chegar a até 95%.',
+      'Sim, haverá uma redução drástica, mas a conta não é zerada. Você deixará de pagar a maior parte do seu consumo, contudo continuará pagando a taxa mínima (custo de disponibilidade da rede) para a concessionária (Light/Enel), a taxa de iluminação pública e eventuais encargos e impostos previstos na legislação vigente sobre a energia injetada. Mesmo assim, a sua economia mensal pode chegar a até 95%, transformando uma conta alta em um valor simbólico.',
   },
 ]
 
