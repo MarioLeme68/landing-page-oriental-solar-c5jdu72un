@@ -36,13 +36,14 @@ export function Hero() {
             </span>
           </h1>
 
-          <p className="text-lg md:text-xl text-slate-600 mb-8 leading-relaxed text-balance text-center lg:text-left w-full">
-            Ligue o ar condicionado sem medo da conta no fim do mês.
+          <p className="text-lg md:text-xl text-slate-600 mb-6 leading-relaxed text-balance text-center lg:text-left w-full">
+            Pare de pagar aluguel de eletricidade e comece a gerar sua própria energia.
           </p>
 
           <p className="text-base md:text-lg text-slate-500 mb-8 leading-relaxed text-balance text-center lg:text-left w-full">
-            A Oriental Solar entrega uma solução individualizada para você reduzir muito a sua conta
-            de luz, economizando mês a mês, e valorizar seu imóvel com um ativo rentável.
+            Ligue o ar condicionado sem medo da conta no fim do mês. A Oriental Solar entrega uma
+            solução individualizada para você reduzir muito a sua conta de luz, economizando mês a
+            mês, e valorizar seu imóvel com um ativo rentável.
           </p>
 
           <div className="flex flex-col w-full sm:w-auto sm:flex-row gap-4 mb-10">
