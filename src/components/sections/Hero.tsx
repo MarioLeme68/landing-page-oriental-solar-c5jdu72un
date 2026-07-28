@@ -85,7 +85,6 @@ export function Hero() {
               </div>
               <div>
                 <p className="text-xs text-slate-500 font-medium">Economia Imediata</p>
-                <p className="text-sm font-bold text-slate-900">Até 95% a menos</p>
               </div>
             </div>
           </div>
